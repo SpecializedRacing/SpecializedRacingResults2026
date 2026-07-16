@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>2026 Racing Overview — Sports Marketing</title>
+<meta name="description" content="Global Sports Marketing racing dashboard with roster-driven filters, coverage KPIs, and automated results data." />
+<style>
+:root{--bg:#fff;--bg2:#f5f5f3;--bg3:#efefec;--text:#1a1a18;--text2:#6b6b67;--text3:#9b9b97;--border:rgba(0,0,0,.1);--border2:rgba(0,0,0,.2);--blue:#378ADD;--green:#639922;--orange:#BA7517;--red:#D85A30;--purple:#7F77DD;--gold:#FAC775}
+@media(prefers-color-scheme:dark){:root{--bg:#1c1c1a;--bg2:#252523;--bg3:#2e2e2b;--text:#f0f0ec;--text2:#a0a09c;--text3:#6a6a66;--border:rgba(255,255,255,.1);--border2:rgba(255,255,255,.2)}}
+*{box-sizing:border-box;margin:0;padding:0}body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',system-ui,sans-serif;background:var(--bg3);color:var(--text);font-size:14px;line-height:1.45}.page{max-width:1440px;margin:0 auto;padding:32px 24px}.hdr{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-bottom:22px}h1{font-size:28px;font-weight:650;letter-spacing:-.5px}.sub,.updated{color:var(--text2);font-size:13px}.hdr-r{text-align:right}.btn-row{display:flex;justify-content:flex-end;gap:8px;flex-wrap:wrap;margin-top:8px}button,select,input{font:inherit;border:1px solid var(--border2);border-radius:8px;background:var(--bg);color:var(--text);padding:7px 11px}button{cursor:pointer}.primary{background:var(--text);color:var(--bg)}.status{display:none;margin-bottom:16px;padding:10px 14px;border-radius:10px}.status.ok,.status.info,.status.err{display:block}.status.ok{background:#dcfce7;color:#166534}.status.info{background:#dbeafe;color:#1e40af}.status.err{background:#fee2e2;color:#991b1b}.filters{display:grid;grid-template-columns:repeat(auto-fit,minmax(155px,1fr));gap:8px;margin-bottom:18px}.filters label{display:flex;flex-direction:column;gap:4px;font-size:11px;color:var(--text2);text-transform:uppercase;letter-spacing:.4px}.metrics{display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:10px;margin-bottom:18px}.metric{background:var(--bg2);border-radius:12px;padding:14px 16px}.ml{font-size:11px;color:var(--text2);text-transform:uppercase;letter-spacing:.45px}.mv{font-size:30px;font-weight:650;line-height:1.1}.ms{font-size:11px;color:var(--text3);margin-top:3px}.grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:18px}.card,.table-card{background:var(--bg);border:1px solid var(--border);border-radius:14px;overflow:hidden}.card{padding:16px 20px}.ct{font-size:11px;font-weight:650;text-transform:uppercase;color:var(--text2);letter-spacing:.5px;margin-bottom:12px}.bars{height:210px;display:flex;align-items:end;gap:10px;padding:10px 0 20px}.bar-wrap{flex:1;text-align:center;min-width:38px}.bar{margin:auto;width:80%;max-width:54px;min-height:2px;background:var(--blue);border-radius:5px 5px 0 0}.bar-label,.bar-val{font-size:10px;color:var(--text2);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.bar-val{color:var(--text3);margin-bottom:4px}.empty{padding:44px;text-align:center;color:var(--text2)}.th{padding:14px 18px;border-bottom:1px solid var(--border);display:flex;justify-content:space-between;gap:12px}.tt{font-weight:650}.tn{font-size:12px;color:var(--text2)}.table-scroll{overflow:auto}table{width:100%;border-collapse:collapse;font-size:12.5px;min-width:980px}th{font-size:10px;background:var(--bg2);color:var(--text2);text-align:left;text-transform:uppercase;letter-spacing:.5px;padding:9px 12px;position:sticky;top:0}td{border-top:1px solid var(--border);padding:9px 12px;vertical-align:middle}.tag{display:inline-block;padding:3px 8px;border-radius:4px;font-size:11px;font-weight:650}.win{background:#EAF3DE;color:#27500A}.pod{background:#E6F1FB;color:#0C447C}.other{background:var(--bg2);color:var(--text2)}.foot{text-align:center;color:var(--text3);font-size:11px;padding:18px}a{color:var(--blue);text-decoration:none}code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;color:var(--text2)}@media(max-width:800px){.grid{grid-template-columns:1fr}.hdr-r{text-align:left}.btn-row{justify-content:flex-start}.page{padding:24px 14px}}
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="hdr">
+    <div>
+      <h1>2026 Racing Overview</h1>
+      <p class="sub">Global Sports Marketing athlete results · roster-driven filters and coverage reporting</p>
+    </div>
+    <div class="hdr-r">
+      <div class="updated" id="lastUpdated">Loading data…</div>
+      <div class="btn-row">
+        <button onclick="exportCSV(filtered,'filtered')">Export filtered CSV</button>
+        <button onclick="exportCSV(allResults,'all')">Export all CSV</button>
+        <button class="primary" onclick="loadData(true)">↻ Reload data</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="status" class="status"></div>
+
+  <div class="filters">
+    <label>Discipline<select id="fd" onchange="applyFilters()"><option value="">All disciplines</option></select></label>
+    <label>Program<select id="fp" onchange="applyFilters()"><option value="">All programs</option></select></label>
+    <label>Category<select id="fc" onchange="applyFilters()"><option value="">All categories</option></select></label>
+    <label>Team<select id="ft" onchange="applyFilters()"><option value="">All teams</option></select></label>
+    <label>Country<select id="fco" onchange="applyFilters()"><option value="">All countries</option></select></label>
+    <label>Gender<select id="fg" onchange="applyFilters()"><option value="">All genders</option><option value="M">Male</option><option value="F">Female</option></select></label>
+    <label>Result<select id="fr" onchange="applyFilters()"><option value="">All results</option><option value="win">Wins</option><option value="podium">Podiums</option><option value="top10">Top 10</option></select></label>
+    <label>Search<input id="fs" placeholder="Athlete or race" oninput="applyFilters()" /></label>
+  </div>
+
+  <div class="metrics">
+    <div class="metric"><div class="ml">Roster size</div><div class="mv" id="mRoster">—</div><div class="ms" id="mRosterSub">selected athletes</div></div>
+    <div class="metric"><div class="ml">Athletes with results</div><div class="mv" id="mAthletes">—</div></div>
+    <div class="metric"><div class="ml">Roster coverage</div><div class="mv" id="mCoverage">—</div></div>
+    <div class="metric"><div class="ml">Wins</div><div class="mv" id="mWins">—</div></div>
+    <div class="metric"><div class="ml">Podiums</div><div class="mv" id="mPodiums">—</div></div>
+    <div class="metric"><div class="ml">Top 10</div><div class="mv" id="mTop10">—</div></div>
+    <div class="metric"><div class="ml">Races covered</div><div class="mv" id="mRaces">—</div></div>
+  </div>
+
+  <div class="grid">
+    <div class="card"><div class="ct">Results by discipline</div><div id="chartDisc"></div></div>
+    <div class="card"><div class="ct">Roster by program</div><div id="chartProgram"></div></div>
+  </div>
+  <div class="grid">
+    <div class="card"><div class="ct">Wins by athlete</div><div id="chartWins"></div></div>
+    <div class="card"><div class="ct">Results by team</div><div id="chartTeam"></div></div>
+  </div>
+
+  <div class="table-card">
+    <div class="th"><div class="tt">Results and moments</div><div class="tn" id="cnt">— results</div></div>
+    <div id="tbody" class="table-scroll"></div>
+  </div>
+
+  <div class="foot">GitHub Pages build · data loaded from <code>data/roster.json</code> and <code>data/results.json</code></div>
+</div>
+
+<script>
+const DATA_PATHS={roster:'data/roster.json',results:'data/results.json'};
+let roster=[],raw=[],allResults=[],filtered=[],selectedRoster=[];
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const norm=s=>String(s||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();
+async function getJson(path){const response=await fetch(path+'?v='+Date.now(),{cache:'no-store'});if(!response.ok)throw new Error(path+' returned '+response.status);return response.json();}
+function msg(type,text){const el=document.getElementById('status');el.className='status '+type;el.textContent=text;}
+function clearMsg(){document.getElementById('status').className='status';document.getElementById('status').textContent='';}
+async function loadData(manual=false){try{if(manual)msg('info','Reloading JSON data…');const [rosterFile,resultsFile]=await Promise.all([getJson(DATA_PATHS.roster),getJson(DATA_PATHS.results)]);roster=Array.isArray(rosterFile.athletes)?rosterFile.athletes:[];raw=Array.isArray(resultsFile.results)?resultsFile.results:[];document.getElementById('lastUpdated').textContent='Results last updated: '+(resultsFile.lastUpdated||'not set')+' · roster: '+roster.length+' athletes';populateFilters();enrichResults();applyFilters();if(manual){msg('ok','Data reloaded.');setTimeout(clearMsg,2500);}}catch(error){msg('err','Data load error: '+error.message+'. Confirm data/roster.json and data/results.json exist in the repository and GitHub Pages is enabled.');}}
+function lookup(){const out={};roster.forEach(a=>[a.rider,...(a.aliases||[])].forEach(n=>{if(n)out[norm(n)]=a;}));return out;}
+function enrichResults(){const l=lookup();allResults=raw.map(r=>{const a=l[norm(r.athlete)]||{};return {...r,team:a.team||r.team||'—',disc:a.primaryDiscipline||r.discipline||'—',category:a.category||r.category||'—',program:a.program||'—',g:a.gender||'—',country:a.country||''};});}
+function setOptions(id,values,label){const el=document.getElementById(id);const old=el.value;el.innerHTML='<option value="">'+label+'</option>';values.filter(Boolean).sort((a,b)=>String(a).localeCompare(String(b))).forEach(v=>el.add(new Option(v,v)));el.value=values.includes(old)?old:'';}
+function populateFilters(){setOptions('fd',[...new Set(roster.map(a=>a.primaryDiscipline))],'All disciplines');setOptions('fp',[...new Set(roster.map(a=>a.program))],'All programs');setOptions('fc',[...new Set(roster.map(a=>a.category))],'All categories');setOptions('ft',[...new Set(roster.map(a=>a.team))],'All teams');setOptions('fco',[...new Set(roster.map(a=>a.country))],'All countries');}
+function rosterPass(a){const q=norm(fs.value);return(!fd.value||a.primaryDiscipline===fd.value)&&(!fp.value||a.program===fp.value)&&(!fc.value||a.category===fc.value)&&(!ft.value||a.team===ft.value)&&(!fco.value||a.country===fco.value)&&(!fg.value||a.gender===fg.value)&&(!q||norm(a.rider).includes(q)||(a.aliases||[]).some(x=>norm(x).includes(q)));}
+function resultPass(x){const q=norm(fs.value);return(!fd.value||x.disc===fd.value)&&(!fp.value||x.program===fp.value)&&(!fc.value||x.category===fc.value)&&(!ft.value||x.team===ft.value)&&(!fco.value||x.country===fco.value)&&(!fg.value||x.g===fg.value)&&(!(fr.value==='win')||x.pos===1)&&(!(fr.value==='podium')||x.pos<=3)&&(!(fr.value==='top10')||x.pos<=10)&&(!q||norm(x.athlete).includes(q)||norm(x.race).includes(q));}
+function applyFilters(){selectedRoster=roster.filter(rosterPass);filtered=allResults.filter(resultPass);render();}
+function render(){const riders=new Set(filtered.map(x=>norm(x.athlete)));const rosterDen=selectedRoster.length;document.getElementById('mRoster').textContent=rosterDen;document.getElementById('mRosterSub').textContent='selected of '+roster.length+' total';document.getElementById('mAthletes').textContent=riders.size;document.getElementById('mCoverage').textContent=rosterDen?((riders.size/rosterDen)*100).toFixed(1)+'%':'—';document.getElementById('mWins').textContent=filtered.filter(x=>x.pos===1).length;document.getElementById('mPodiums').textContent=filtered.filter(x=>x.pos<=3).length;document.getElementById('mTop10').textContent=filtered.filter(x=>x.pos<=10).length;document.getElementById('mRaces').textContent=new Set(filtered.map(x=>x.race)).size;document.getElementById('cnt').textContent=filtered.length+' results';bars('chartDisc',count(filtered,'disc'),{Road:'#378ADD',MTB:'#639922',DH:'#D85A30',Gravel:'#BA7517',Triathlon:'#7F77DD'});bars('chartProgram',count(selectedRoster,'program'));bars('chartWins',Object.entries(groupWins()).sort((a,b)=>b[1]-a[1]).slice(0,8).map(([k,v])=>({k:k.split(' ').pop(),v})));bars('chartTeam',count(filtered,'team').slice(0,10));table();}
+function count(arr,key){const m={};arr.forEach(x=>{const k=x[key]||'—';m[k]=(m[k]||0)+1;});return Object.entries(m).sort((a,b)=>b[1]-a[1]).map(([k,v])=>({k,v}));}
+function groupWins(){const m={};filtered.forEach(x=>{if(Number(x.pos)===1)m[x.athlete]=(m[x.athlete]||0)+1;});return m;}
+function bars(id,items,colors={}){const el=document.getElementById(id);if(!items.length){el.innerHTML='<div class="empty">No data in current filter</div>';return;}const max=Math.max(...items.map(i=>i.v),1);el.innerHTML='<div class="bars">'+items.map(i=>'<div class="bar-wrap"><div class="bar-val">'+i.v+'</div><div class="bar" style="height:'+Math.max(4,Math.round(i.v/max*155))+'px;background:'+(colors[i.k]||'#378ADD')+'"></div><div class="bar-label" title="'+esc(i.k)+'">'+esc(i.k)+'</div></div>').join('')+'</div>';}
+function table(){const rows=[...filtered].sort((a,b)=>new Date(b.date)-new Date(a.date));if(!rows.length){tbody.innerHTML='<div class="empty">No results match the current filters. Add result records to data/results.json to populate the race table.</div>';return;}tbody.innerHTML='<table><thead><tr><th>Date</th><th>Race</th><th>Athlete</th><th>Team</th><th>Program</th><th>Pos</th><th>Discipline</th><th>Result</th><th>Source</th></tr></thead><tbody>'+rows.map(r=>'<tr><td>'+esc(r.date)+'</td><td><b>'+esc(r.race)+'</b></td><td>'+esc(r.athlete)+'</td><td>'+esc(r.team)+'</td><td>'+esc(r.program)+'</td><td>'+esc(r.pos)+'</td><td>'+esc(r.disc)+'</td><td><span class="tag '+(r.pos===1?'win':r.pos<=3?'pod':'other')+'">'+(r.pos===1?'Win':r.pos<=3?'Podium':r.pos<=10?'Top 10':'Result')+'</span></td><td>'+(r.sourceUrl?'<a href="'+esc(r.sourceUrl)+'" target="_blank" rel="noopener noreferrer">'+esc(r.src)+'</a>':esc(r.src||''))+'</td></tr>').join('')+'</tbody></table>';}
+function exportCSV(data,scope){const h=['Date','Race','Athlete','Team','Program','Category','Position','Discipline','Gender','Country','Result','Source','Source URL'];const rows=data.map(r=>[r.date,r.race,r.athlete,r.team,r.program,r.category,r.pos,r.disc,r.g,r.country,r.pos===1?'Win':r.pos<=3?'Podium':r.pos<=10?'Top 10':'Result',r.src,r.sourceUrl||'']);const csv=[h,...rows].map(r=>r.map(v=>'"'+String(v??'').replace(/"/g,'""')+'"').join(',')).join('\n');const a=document.createElement('a');a.href='data:text/csv;charset=utf-8,'+encodeURIComponent(csv);a.download='2026_racing_results_'+scope+'.csv';a.click();}
+window.addEventListener('DOMContentLoaded',loadData);
+</script>
+</body>
+</html>
