@@ -1,0 +1,34 @@
+name: Update racing results
+
+on:
+  schedule:
+    # Mondays at 13:00 UTC. Adjust the cron value if you want a different reporting time.
+    - cron: "0 13 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-results:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Update results JSON
+        run: python scripts/update_results.py
+
+      - name: Commit updated data files
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update racing results data"
+          file_pattern: data/results.json data/discovered_results_review.json
