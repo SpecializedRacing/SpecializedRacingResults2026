@@ -1,0 +1,15 @@
+{
+  "lastUpdated": "2026-07-16",
+  "generatedFrom": "Athlete_Master_Results_Tracker.xlsx",
+  "sourceSheet": "Daily_Feed",
+  "resultCount": 0,
+  "results": [],
+  "schema": {
+    "date": "YYYY-MM-DD",
+    "race": "string",
+    "athlete": "name matching roster rider or alias",
+    "pos": "number 1-30",
+    "src": "source label",
+    "sourceUrl": "optional evidence URL"
+  }
+}
