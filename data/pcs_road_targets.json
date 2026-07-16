@@ -1,13 +1,23 @@
 {
   "lastUpdated": "2026-07-16",
-  "notes": "Seed PCS event pages for road ingestion. Add more PCS race URLs here. The script discovers result/stage links from overview pages and parses explicit result pages only.",
+  "notes": "Strict 2026 PCS Road targets. Dates are supplied where known so dashboard rows always show a date. Add more 2026 PCS event/result/stage URLs here.",
   "targets": [
-    {"name": "Tour de France 2026", "url": "https://www.procyclingstats.com/race/tour-de-france/2026"},
-    {"name": "Tour de France 2026 winners/results", "url": "https://www.procyclingstats.com/race/tour-de-france/2026/results"},
-    {"name": "Paris-Roubaix 2026", "url": "https://www.procyclingstats.com/race/paris-roubaix/2026/result/result/result"},
-    {"name": "Strade Bianche 2026", "url": "https://www.procyclingstats.com/race/strade-bianche/2026/result/result/result"},
-    {"name": "Milano-Sanremo 2026", "url": "https://www.procyclingstats.com/race/milano-sanremo/2026/result/result/result"},
-    {"name": "POREC Classic 2026", "url": "https://www.procyclingstats.com/race/porec-trophy/2026/result/result/result"},
-    {"name": "Tour des Alpes-Maritimes 2026", "url": "https://www.procyclingstats.com/race/tour-des-alpes-maritimes/2026/result/result/result"}
+    {"name": "Paris-Roubaix Hauts-de-France 2026", "date": "2026-04-12", "url": "https://www.procyclingstats.com/race/paris-roubaix/2026/result/result/result"},
+    {"name": "Strade Bianche 2026", "date": "2026-03-07", "url": "https://www.procyclingstats.com/race/strade-bianche/2026/result/result/result"},
+    {"name": "Milano-Sanremo 2026", "date": "2026-03-21", "url": "https://www.procyclingstats.com/race/milano-sanremo/2026/result/result/result"},
+    {"name": "Tour de France 2026", "url": "https://www.procyclingstats.com/race/tour-de-france/2026", "stages": [
+      {"name": "Tour de France 2026 Stage 1", "date": "2026-07-04", "url": "https://www.procyclingstats.com/race/tour-de-france/2026/stage-1"},
+      {"name": "Tour de France 2026 Stage 2", "date": "2026-07-05", "url": "https://www.procyclingstats.com/race/tour-de-france/2026/stage-2"},
+      {"name": "Tour de France 2026 Stage 3", "date": "2026-07-06", "url": "https://www.procyclingstats.com/race/tour-de-france/2026/stage-3"},
+      {"name": "Tour de France 2026 Stage 4", "date": "2026-07-07", "url": "https://www.procyclingstats.com/race/tour-de-france/2026/stage-4"},
+      {"name": "Tour de France 2026 Stage 5", "date": "2026-07-08", "url": "https://www.procyclingstats.com/race/tour-de-france/2026/stage-5"},
+      {"name": "Tour de France 2026 Stage 6", "date": "2026-07-09", "url": "https://www.procyclingstats.com/race/tour-de-france/2026/stage-6"},
+      {"name": "Tour de France 2026 Stage 7", "date": "2026-07-10", "url": "https://www.procyclingstats.com/race/tour-de-france/2026/stage-7"},
+      {"name": "Tour de France 2026 Stage 8", "date": "2026-07-11", "url": "https://www.procyclingstats.com/race/tour-de-france/2026/stage-8"},
+      {"name": "Tour de France 2026 Stage 9", "date": "2026-07-12", "url": "https://www.procyclingstats.com/race/tour-de-france/2026/stage-9"},
+      {"name": "Tour de France 2026 Stage 10", "date": "2026-07-14", "url": "https://www.procyclingstats.com/race/tour-de-france/2026/stage-10"},
+      {"name": "Tour de France 2026 Stage 11", "date": "2026-07-15", "url": "https://www.procyclingstats.com/race/tour-de-france/2026/stage-11"},
+      {"name": "Tour de France 2026 Stage 12", "date": "2026-07-16", "url": "https://www.procyclingstats.com/race/tour-de-france/2026/stage-12"}
+    ]}
   ]
 }
