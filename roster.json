@@ -1,0 +1,4128 @@
+{
+  "generatedFrom": "Athlete_Master_Results_Tracker.xlsx",
+  "sourceSheet": "Athletes",
+  "generatedAt": "2026-07-16T15:38:23+00:00",
+  "athleteCount": 218,
+  "athletes": [
+    {
+      "athleteId": "A001",
+      "rider": "Dylan van Baarle",
+      "team": "Soudal-QuickStep",
+      "category": "Elite men",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "NED",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/dylan-van-baarle/",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "WorldTour Men"
+    },
+    {
+      "athleteId": "A002",
+      "rider": "Ayco Bastiaens",
+      "team": "Soudal-QuickStep",
+      "category": "Elite men",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "BEL",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/ayco-bastiaens/",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "WorldTour Men"
+    },
+    {
+      "athleteId": "A003",
+      "rider": "Fabio Van Den Bossche",
+      "team": "Soudal-QuickStep",
+      "category": "Elite men",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "BEL",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/fabio-van-den-bossche/",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "WorldTour Men"
+    },
+    {
+      "athleteId": "A004",
+      "rider": "Steff Cras",
+      "team": "Soudal-QuickStep",
+      "category": "Elite men",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "BEL",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/steff-cras/",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "WorldTour Men"
+    },
+    {
+      "athleteId": "A005",
+      "rider": "Alberto Dainese",
+      "team": "Soudal-QuickStep",
+      "category": "Elite men",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "ITA",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/alberto-dainese/",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "WorldTour Men"
+    },
+    {
+      "athleteId": "A006",
+      "rider": "Pascal Eenkhoorn",
+      "team": "Soudal-QuickStep",
+      "category": "Elite men",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "NED",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/pascal-eenkhoorn/",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "WorldTour Men"
+    },
+    {
+      "athleteId": "A007",
+      "rider": "Gianmarco Garofoli",
+      "team": "Soudal-QuickStep",
+      "category": "Elite men",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "ITA",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/gianmarco-garofoli/",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "WorldTour Men"
+    },
+    {
+      "athleteId": "A008",
+      "rider": "Gil Gelders",
+      "team": "Soudal-QuickStep",
+      "category": "Elite men",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "BEL",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/gil-gelders/",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "WorldTour Men"
+    },
+    {
+      "athleteId": "A009",
+      "rider": "Dries Van Gestel",
+      "team": "Soudal-QuickStep",
+      "category": "Elite men",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "BEL",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/dries-van-gestel/",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "WorldTour Men"
+    },
+    {
+      "athleteId": "A010",
+      "rider": "Ethan Hayter",
+      "team": "Soudal-QuickStep",
+      "category": "Elite men",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "UK",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/ethan-hayter/",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "WorldTour Men"
+    },
+    {
+      "athleteId": "A011",
+      "rider": "Yves Lampaert",
+      "team": "Soudal-QuickStep",
+      "category": "Elite men",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "BEL",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/yves-lampaert/",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "WorldTour Men"
+    },
+    {
+      "athleteId": "A012",
+      "rider": "William Junior Lecerf",
+      "team": "Soudal-QuickStep",
+      "category": "Elite men",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "BEL",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/william-junior-lecerf/",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "WorldTour Men"
+    },
+    {
+      "athleteId": "A013",
+      "rider": "Bert Van Lerberghe",
+      "team": "Soudal-QuickStep",
+      "category": "Elite men",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "BEL",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/bert-van-lerberghe/",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "WorldTour Men"
+    },
+    {
+      "athleteId": "A014",
+      "rider": "Paul Magnier",
+      "team": "Soudal-QuickStep",
+      "category": "Elite men",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "FRA",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/paul-magnier/",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "WorldTour Men"
+    },
+    {
+      "athleteId": "A015",
+      "rider": "Mikel Landa Meana",
+      "team": "Soudal-QuickStep",
+      "category": "Elite men",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "ESP",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/mikel-landa-meana/",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "WorldTour Men"
+    },
+    {
+      "athleteId": "A016",
+      "rider": "Tim Merlier",
+      "team": "Soudal-QuickStep",
+      "category": "Elite men",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "BEL",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/tim-merlier/",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "WorldTour Men"
+    },
+    {
+      "athleteId": "A017",
+      "rider": "Andrea Raccagni Noviero",
+      "team": "Soudal-QuickStep",
+      "category": "Elite men",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "ITA",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/andrea-raccagni-noviero/",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "WorldTour Men"
+    },
+    {
+      "athleteId": "A018",
+      "rider": "Valentin Paret-Peintre",
+      "team": "Soudal-QuickStep",
+      "category": "Elite men",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "FRA",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/valentin-paret-peintre/",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "WorldTour Men"
+    },
+    {
+      "athleteId": "A019",
+      "rider": "Casper Pedersen",
+      "team": "Soudal-QuickStep",
+      "category": "Elite men",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "DEN",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/casper-pedersen/",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "WorldTour Men"
+    },
+    {
+      "athleteId": "A020",
+      "rider": "Pepijn Reinderink",
+      "team": "Soudal-QuickStep",
+      "category": "Elite men",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "NED",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/pepijn-reinderink/",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "WorldTour Men"
+    },
+    {
+      "athleteId": "A021",
+      "rider": "Laurenz Rex",
+      "team": "Soudal-QuickStep",
+      "category": "Elite men",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "BEL",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/laurenz-rex/",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "WorldTour Men"
+    },
+    {
+      "athleteId": "A022",
+      "rider": "Maximilian Schachmann",
+      "team": "Soudal-QuickStep",
+      "category": "Elite men",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "DEU",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/maximilian-schachmann/",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "WorldTour Men"
+    },
+    {
+      "athleteId": "A023",
+      "rider": "Jasper Stuyven",
+      "team": "Soudal-QuickStep",
+      "category": "Elite men",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "BEL",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/jasper-stuyven/",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "WorldTour Men"
+    },
+    {
+      "athleteId": "A024",
+      "rider": "Martin Svrcek",
+      "team": "Soudal-QuickStep",
+      "category": "Elite men",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "SVK",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/martin-svrcek/",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "WorldTour Men"
+    },
+    {
+      "athleteId": "A025",
+      "rider": "Warre Vangheluwe",
+      "team": "Soudal-QuickStep",
+      "category": "Elite men",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "BEL",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/warre-vangheluwe/",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "WorldTour Men"
+    },
+    {
+      "athleteId": "A026",
+      "rider": "Mauri Vansevenant",
+      "team": "Soudal-QuickStep",
+      "category": "Elite men",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "BEL",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/mauri-vansevenant/",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "WorldTour Men"
+    },
+    {
+      "athleteId": "A027",
+      "rider": "Louis Vervaeke",
+      "team": "Soudal-QuickStep",
+      "category": "Elite men",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "BEL",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/louis-vervaeke/",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "WorldTour Men"
+    },
+    {
+      "athleteId": "A028",
+      "rider": "Jonathan Vervenne",
+      "team": "Soudal-QuickStep",
+      "category": "Elite men",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "BEL",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/jonathan-vervenne/",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "WorldTour Men"
+    },
+    {
+      "athleteId": "A029",
+      "rider": "Ilan Van Wilder",
+      "team": "Soudal-QuickStep",
+      "category": "Elite men",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "BEL",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/ilan-van-wilder/",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "WorldTour Men"
+    },
+    {
+      "athleteId": "A030",
+      "rider": "Filippo Zana",
+      "team": "Soudal-QuickStep",
+      "category": "Elite men",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "ITA",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/filippo-zana/",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "WorldTour Men"
+    },
+    {
+      "athleteId": "A031",
+      "rider": "Giovanni Aleotti",
+      "team": "Red Bull-Bora-hansgrohe",
+      "category": "Elite men",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "ITA",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/giovanni-aleotti/",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "WorldTour Men"
+    },
+    {
+      "athleteId": "A032",
+      "rider": "Adrien Boichis",
+      "team": "Red Bull-Bora-hansgrohe",
+      "category": "Elite men",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "FRA",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/adrien-boichis/",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "WorldTour Men"
+    },
+    {
+      "athleteId": "A033",
+      "rider": "Mattia Cattaneo",
+      "team": "Red Bull-Bora-hansgrohe",
+      "category": "Elite men",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "ITA",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/mattia-cattaneo/",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "WorldTour Men"
+    },
+    {
+      "athleteId": "A034",
+      "rider": "Nico Denz",
+      "team": "Red Bull-Bora-hansgrohe",
+      "category": "Elite men",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "DEU",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/nico-denz/",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "WorldTour Men"
+    },
+    {
+      "athleteId": "A035",
+      "rider": "Mick van Dijke",
+      "team": "Red Bull-Bora-hansgrohe",
+      "category": "Elite men",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "NED",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/mick-van-dijke/",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "WorldTour Men"
+    },
+    {
+      "athleteId": "A036",
+      "rider": "Tim van Dijke",
+      "team": "Red Bull-Bora-hansgrohe",
+      "category": "Elite men",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "NED",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/tim-van-dijke/",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "WorldTour Men"
+    },
+    {
+      "athleteId": "A037",
+      "rider": "Jarrad Drizners",
+      "team": "Red Bull-Bora-hansgrohe",
+      "category": "Elite men",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "AUS",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/jarrad-drizners/",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "WorldTour Men"
+    },
+    {
+      "athleteId": "A038",
+      "rider": "Haimar Etxeberria",
+      "team": "Red Bull-Bora-hansgrohe",
+      "category": "Elite men",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "ESP",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/haimar-etxeberria/",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "WorldTour Men"
+    },
+    {
+      "athleteId": "A039",
+      "rider": "Remco Evenepoel",
+      "team": "Red Bull-Bora-hansgrohe",
+      "category": "Elite men",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "BEL",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/remco-evenepoel/",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "WorldTour Men"
+    },
+    {
+      "athleteId": "A040",
+      "rider": "Finn Fisher-Black",
+      "team": "Red Bull-Bora-hansgrohe",
+      "category": "Elite men",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "NZL",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/finn-fisher-black/",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "WorldTour Men"
+    },
+    {
+      "athleteId": "A041",
+      "rider": "Maxim Van Gils",
+      "team": "Red Bull-Bora-hansgrohe",
+      "category": "Elite men",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "BEL",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/maxim-van-gils/",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "WorldTour Men"
+    },
+    {
+      "athleteId": "A042",
+      "rider": "Alexander Hajek",
+      "team": "Red Bull-Bora-hansgrohe",
+      "category": "Elite men",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "AUT",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/alexander-hajek/",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "WorldTour Men"
+    },
+    {
+      "athleteId": "A043",
+      "rider": "Emil Herzog",
+      "team": "Red Bull-Bora-hansgrohe",
+      "category": "Elite men",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "DEU",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/emil-herzog/",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "WorldTour Men"
+    },
+    {
+      "athleteId": "A044",
+      "rider": "Jai Hindley",
+      "team": "Red Bull-Bora-hansgrohe",
+      "category": "Elite men",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "AUS",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/jai-hindley/",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "WorldTour Men"
+    },
+    {
+      "athleteId": "A045",
+      "rider": "Florian Lipowitz",
+      "team": "Red Bull-Bora-hansgrohe",
+      "category": "Elite men",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "DEU",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/florian-lipowitz/",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "WorldTour Men"
+    },
+    {
+      "athleteId": "A046",
+      "rider": "Arne Marit",
+      "team": "Red Bull-Bora-hansgrohe",
+      "category": "Elite men",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "BEL",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/arne-marit/",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "WorldTour Men"
+    },
+    {
+      "athleteId": "A047",
+      "rider": "Daniel Martínez",
+      "team": "Red Bull-Bora-hansgrohe",
+      "category": "Elite men",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "COL",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/daniel-martinez/",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "WorldTour Men"
+    },
+    {
+      "athleteId": "A048",
+      "rider": "Jordi Meeus",
+      "team": "Red Bull-Bora-hansgrohe",
+      "category": "Elite men",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "BEL",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/jordi-meeus/",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "WorldTour Men"
+    },
+    {
+      "athleteId": "A049",
+      "rider": "Gianni Moscon",
+      "team": "Red Bull-Bora-hansgrohe",
+      "category": "Elite men",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "ITA",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/gianni-moscon/",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "WorldTour Men"
+    },
+    {
+      "athleteId": "A050",
+      "rider": "Giulio Pellizzari",
+      "team": "Red Bull-Bora-hansgrohe",
+      "category": "Elite men",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "ITA",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/giulio-pellizzari/",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "WorldTour Men"
+    },
+    {
+      "athleteId": "A051",
+      "rider": "Laurence Pithie",
+      "team": "Red Bull-Bora-hansgrohe",
+      "category": "Elite men",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "NZ",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/laurence-pithie/",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "WorldTour Men"
+    },
+    {
+      "athleteId": "A052",
+      "rider": "Danny van Poppel",
+      "team": "Red Bull-Bora-hansgrohe",
+      "category": "Elite men",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "NED",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/danny-van-poppel/",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "WorldTour Men"
+    },
+    {
+      "athleteId": "A053",
+      "rider": "Primoz Roglic",
+      "team": "Red Bull-Bora-hansgrohe",
+      "category": "Elite men",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "SVN",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/primoz-roglic/",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "WorldTour Men"
+    },
+    {
+      "athleteId": "A054",
+      "rider": "Callum Thornley",
+      "team": "Red Bull-Bora-hansgrohe",
+      "category": "Elite men",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "GBR",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/callum-thornley/",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "WorldTour Men"
+    },
+    {
+      "athleteId": "A055",
+      "rider": "Jan Tratnik",
+      "team": "Red Bull-Bora-hansgrohe",
+      "category": "Elite men",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "SVN",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/jan-tratnik/",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "WorldTour Men"
+    },
+    {
+      "athleteId": "A056",
+      "rider": "Luke Tuckwell",
+      "team": "Red Bull-Bora-hansgrohe",
+      "category": "Elite men",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "AUS",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/luke-tuckwell/",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "WorldTour Men"
+    },
+    {
+      "athleteId": "A057",
+      "rider": "Gianni Vermeersch",
+      "team": "Red Bull-Bora-hansgrohe",
+      "category": "Elite men",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "BEL",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/gianni-vermeersch/",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "WorldTour Men"
+    },
+    {
+      "athleteId": "A058",
+      "rider": "Aleksandr Vlasov",
+      "team": "Red Bull-Bora-hansgrohe",
+      "category": "Elite men",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "RUS",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/aleksandr-vlasov/",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "WorldTour Men"
+    },
+    {
+      "athleteId": "A059",
+      "rider": "Frederik Wandahl",
+      "team": "Red Bull-Bora-hansgrohe",
+      "category": "Elite men",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "DEN",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/frederik-wandahl/",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "WorldTour Men"
+    },
+    {
+      "athleteId": "A060",
+      "rider": "Ben Zwiehoff",
+      "team": "Red Bull-Bora-hansgrohe",
+      "category": "Elite men",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "DEU",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/ben-zwiehoff/",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "WorldTour Men"
+    },
+    {
+      "athleteId": "A061",
+      "rider": "Fauve Bastiaenssen",
+      "team": "AGI-Soudal Women's Team",
+      "category": "Elite women",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "BEL",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/fauve-bastiaenssen/",
+      "aliases": [],
+      "active": true,
+      "gender": "F",
+      "program": "WorldTour Women"
+    },
+    {
+      "athleteId": "A062",
+      "rider": "Letizia Borghesi",
+      "team": "AGI-Soudal Women's Team",
+      "category": "Elite women",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "ITA",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/letizia-borghesi/",
+      "aliases": [],
+      "active": true,
+      "gender": "F",
+      "program": "WorldTour Women"
+    },
+    {
+      "athleteId": "A063",
+      "rider": "Shari Bossuyt",
+      "team": "AGI-Soudal Women's Team",
+      "category": "Elite women",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "BEL",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/shari-bossuyt/",
+      "aliases": [],
+      "active": true,
+      "gender": "F",
+      "program": "WorldTour Women"
+    },
+    {
+      "athleteId": "A064",
+      "rider": "Alana Castrique",
+      "team": "AGI-Soudal Women's Team",
+      "category": "Elite women",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "BEL",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/alana-castrique/",
+      "aliases": [],
+      "active": true,
+      "gender": "F",
+      "program": "WorldTour Women"
+    },
+    {
+      "athleteId": "A065",
+      "rider": "Kim Le Court-Pienaar",
+      "team": "AGI-Soudal Women's Team",
+      "category": "Elite women",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "MUS",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/kim-le-court-pienaar/",
+      "aliases": [
+        "Kim Le Court",
+        "Kim Pienaar",
+        "Kimberley"
+      ],
+      "active": true,
+      "gender": "F",
+      "program": "WorldTour Women"
+    },
+    {
+      "athleteId": "A066",
+      "rider": "Justine Ghekiere",
+      "team": "AGI-Soudal Women's Team",
+      "category": "Elite women",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "BEL",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/justine-ghekiere/",
+      "aliases": [],
+      "active": true,
+      "gender": "F",
+      "program": "WorldTour Women"
+    },
+    {
+      "athleteId": "A067",
+      "rider": "Sarah Gigante",
+      "team": "AGI-Soudal Women's Team",
+      "category": "Elite women",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "AUS",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/sarah-gigante/",
+      "aliases": [],
+      "active": true,
+      "gender": "F",
+      "program": "WorldTour Women"
+    },
+    {
+      "athleteId": "A068",
+      "rider": "Marthe Goossens",
+      "team": "AGI-Soudal Women's Team",
+      "category": "Elite women",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "BEL",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/marthe-goossens/",
+      "aliases": [],
+      "active": true,
+      "gender": "F",
+      "program": "WorldTour Women"
+    },
+    {
+      "athleteId": "A069",
+      "rider": "Anya Louw",
+      "team": "AGI-Soudal Women's Team",
+      "category": "Elite women",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "AUS",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/anya-louw/",
+      "aliases": [],
+      "active": true,
+      "gender": "F",
+      "program": "WorldTour Women"
+    },
+    {
+      "athleteId": "A070",
+      "rider": "Alexandra Manly",
+      "team": "AGI-Soudal Women's Team",
+      "category": "Elite women",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "AUS",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/alexandra-manly/",
+      "aliases": [],
+      "active": true,
+      "gender": "F",
+      "program": "WorldTour Women"
+    },
+    {
+      "athleteId": "A071",
+      "rider": "Ashleigh Moolman Pasio",
+      "team": "AGI-Soudal Women's Team",
+      "category": "Elite women",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "RSA",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/ashleigh-moolman-pasio/",
+      "aliases": [
+        "Ashleigh Moolman"
+      ],
+      "active": true,
+      "gender": "F",
+      "program": "WorldTour Women"
+    },
+    {
+      "athleteId": "A072",
+      "rider": "Mireia Benito Pellicer",
+      "team": "AGI-Soudal Women's Team",
+      "category": "Elite women",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "ESP",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/mireia-benito-pellicer/",
+      "aliases": [
+        "Mireia Benito"
+      ],
+      "active": true,
+      "gender": "F",
+      "program": "WorldTour Women"
+    },
+    {
+      "athleteId": "A073",
+      "rider": "Ilse Pluimers",
+      "team": "AGI-Soudal Women's Team",
+      "category": "Elite women",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "NED",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/ilse-pluimers/",
+      "aliases": [],
+      "active": true,
+      "gender": "F",
+      "program": "WorldTour Women"
+    },
+    {
+      "athleteId": "A074",
+      "rider": "Lore De Schepper",
+      "team": "AGI-Soudal Women's Team",
+      "category": "Elite women",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "BEL",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/lore-de-schepper/",
+      "aliases": [],
+      "active": true,
+      "gender": "F",
+      "program": "WorldTour Women"
+    },
+    {
+      "athleteId": "A075",
+      "rider": "Julie Van de Velde",
+      "team": "AGI-Soudal Women's Team",
+      "category": "Elite women",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "BEL",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/julie-van-de-velde/",
+      "aliases": [],
+      "active": true,
+      "gender": "F",
+      "program": "WorldTour Women"
+    },
+    {
+      "athleteId": "A076",
+      "rider": "Gladys Verhulst",
+      "team": "AGI-Soudal Women's Team",
+      "category": "Elite women",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "NED",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/gladys-verhulst/",
+      "aliases": [],
+      "active": true,
+      "gender": "F",
+      "program": "WorldTour Women"
+    },
+    {
+      "athleteId": "A077",
+      "rider": "Urska Zigart",
+      "team": "AGI-Soudal Women's Team",
+      "category": "Elite women",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "SLV",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/urska-zigart/",
+      "aliases": [
+        "Gladys Verhulst-Wild"
+      ],
+      "active": true,
+      "gender": "F",
+      "program": "WorldTour Women"
+    },
+    {
+      "athleteId": "A078",
+      "rider": "Eva van Agt",
+      "team": "FDJ United-SUEZ",
+      "category": "Elite women",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "NED",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/eva-van-agt/",
+      "aliases": [],
+      "active": true,
+      "gender": "F",
+      "program": "WorldTour Women"
+    },
+    {
+      "athleteId": "A079",
+      "rider": "Juliette Berthet",
+      "team": "FDJ United-SUEZ",
+      "category": "Elite women",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "FRA",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/juliette-berthet/",
+      "aliases": [],
+      "active": true,
+      "gender": "F",
+      "program": "WorldTour Women"
+    },
+    {
+      "athleteId": "A080",
+      "rider": "Sofia Bertizzolo",
+      "team": "FDJ United-SUEZ",
+      "category": "Elite women",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "ITA",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/sofia-bertizzolo/",
+      "aliases": [],
+      "active": true,
+      "gender": "F",
+      "program": "WorldTour Women"
+    },
+    {
+      "athleteId": "A081",
+      "rider": "Elise Chabbey",
+      "team": "FDJ United-SUEZ",
+      "category": "Elite women",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "SUI",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/elise-chabbey/",
+      "aliases": [],
+      "active": true,
+      "gender": "F",
+      "program": "WorldTour Women"
+    },
+    {
+      "athleteId": "A082",
+      "rider": "Léa Curinier",
+      "team": "FDJ United-SUEZ",
+      "category": "Elite women",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "FRA",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/lea-curinier/",
+      "aliases": [],
+      "active": true,
+      "gender": "F",
+      "program": "WorldTour Women"
+    },
+    {
+      "athleteId": "A083",
+      "rider": "Lauren Dickson",
+      "team": "FDJ United-SUEZ",
+      "category": "Elite women",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "GBR",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/lauren-dickson/",
+      "aliases": [],
+      "active": true,
+      "gender": "F",
+      "program": "WorldTour Women"
+    },
+    {
+      "athleteId": "A084",
+      "rider": "Célia Gery",
+      "team": "FDJ United-SUEZ",
+      "category": "Elite women",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "FRA",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/celia-gery/",
+      "aliases": [],
+      "active": true,
+      "gender": "F",
+      "program": "WorldTour Women"
+    },
+    {
+      "athleteId": "A085",
+      "rider": "Vittoria Guazzini",
+      "team": "FDJ United-SUEZ",
+      "category": "Elite women",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "ITA",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/vittoria-guazzini/",
+      "aliases": [],
+      "active": true,
+      "gender": "F",
+      "program": "WorldTour Women"
+    },
+    {
+      "athleteId": "A086",
+      "rider": "Franziska Koch",
+      "team": "FDJ United-SUEZ",
+      "category": "Elite women",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "DEU",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/franziska-koch/",
+      "aliases": [],
+      "active": true,
+      "gender": "F",
+      "program": "WorldTour Women"
+    },
+    {
+      "athleteId": "A087",
+      "rider": "Amber Kraak",
+      "team": "FDJ United-SUEZ",
+      "category": "Elite women",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "NED",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/amber-kraak/",
+      "aliases": [],
+      "active": true,
+      "gender": "F",
+      "program": "WorldTour Women"
+    },
+    {
+      "athleteId": "A088",
+      "rider": "Evita Muzic",
+      "team": "FDJ United-SUEZ",
+      "category": "Elite women",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "FRA",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/evita-muzic/",
+      "aliases": [
+        "Évita Muzic"
+      ],
+      "active": true,
+      "gender": "F",
+      "program": "WorldTour Women"
+    },
+    {
+      "athleteId": "A089",
+      "rider": "Marie Le Net",
+      "team": "FDJ United-SUEZ",
+      "category": "Elite women",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "FRA",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/marie-le-net/",
+      "aliases": [],
+      "active": true,
+      "gender": "F",
+      "program": "WorldTour Women"
+    },
+    {
+      "athleteId": "A090",
+      "rider": "Eglantine Rayer",
+      "team": "FDJ United-SUEZ",
+      "category": "Elite women",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "FRA",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/eglantine-rayer/",
+      "aliases": [],
+      "active": true,
+      "gender": "F",
+      "program": "WorldTour Women"
+    },
+    {
+      "athleteId": "A091",
+      "rider": "Demi Vollering",
+      "team": "FDJ United-SUEZ",
+      "category": "Elite women",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "NED",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/demi-vollering/",
+      "aliases": [],
+      "active": true,
+      "gender": "F",
+      "program": "WorldTour Women"
+    },
+    {
+      "athleteId": "A092",
+      "rider": "Jade Wiel",
+      "team": "FDJ United-SUEZ",
+      "category": "Elite women",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "FRA",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/jade-wiel/",
+      "aliases": [],
+      "active": true,
+      "gender": "F",
+      "program": "WorldTour Women"
+    },
+    {
+      "athleteId": "A093",
+      "rider": "Ally Wollaston",
+      "team": "FDJ United-SUEZ",
+      "category": "Elite women",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "NZL",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/ally-wollaston/",
+      "aliases": [],
+      "active": true,
+      "gender": "F",
+      "program": "WorldTour Women"
+    },
+    {
+      "athleteId": "A094",
+      "rider": "Lisa van Belle",
+      "team": "SD Worx-Protime",
+      "category": "Elite women",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "NED",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/lisa-van-belle/",
+      "aliases": [],
+      "active": true,
+      "gender": "F",
+      "program": "WorldTour Women"
+    },
+    {
+      "athleteId": "A095",
+      "rider": "Mischa Bredewold",
+      "team": "SD Worx-Protime",
+      "category": "Elite women",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "NED",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/mischa-bredewold/",
+      "aliases": [],
+      "active": true,
+      "gender": "F",
+      "program": "WorldTour Women"
+    },
+    {
+      "athleteId": "A096",
+      "rider": "Anna van der Breggen",
+      "team": "SD Worx-Protime",
+      "category": "Elite women",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "NED",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/anna-van-der-breggen/",
+      "aliases": [],
+      "active": true,
+      "gender": "F",
+      "program": "WorldTour Women"
+    },
+    {
+      "athleteId": "A097",
+      "rider": "Valentina Cavallar",
+      "team": "SD Worx-Protime",
+      "category": "Elite women",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "AUT",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/valentina-cavallar/",
+      "aliases": [],
+      "active": true,
+      "gender": "F",
+      "program": "WorldTour Women"
+    },
+    {
+      "athleteId": "A098",
+      "rider": "Elena Cecchini",
+      "team": "SD Worx-Protime",
+      "category": "Elite women",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "ITA",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/elena-cecchini/",
+      "aliases": [],
+      "active": true,
+      "gender": "F",
+      "program": "WorldTour Women"
+    },
+    {
+      "athleteId": "A099",
+      "rider": "Femke Gerritse",
+      "team": "SD Worx-Protime",
+      "category": "Elite women",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "NED",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/femke-gerritse/",
+      "aliases": [],
+      "active": true,
+      "gender": "F",
+      "program": "WorldTour Women"
+    },
+    {
+      "athleteId": "A100",
+      "rider": "Barbara Guarischi",
+      "team": "SD Worx-Protime",
+      "category": "Elite women",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "ITA",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/barbara-guarischi/",
+      "aliases": [],
+      "active": true,
+      "gender": "F",
+      "program": "WorldTour Women"
+    },
+    {
+      "athleteId": "A101",
+      "rider": "Mikayla Harvey",
+      "team": "SD Worx-Protime",
+      "category": "Elite women",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "NZL",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/mikayla-harvey/",
+      "aliases": [],
+      "active": true,
+      "gender": "F",
+      "program": "WorldTour Women"
+    },
+    {
+      "athleteId": "A102",
+      "rider": "Steffi Häberlin",
+      "team": "SD Worx-Protime",
+      "category": "Elite women",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "SUI",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/steffi-haeberlin/",
+      "aliases": [],
+      "active": true,
+      "gender": "F",
+      "program": "WorldTour Women"
+    },
+    {
+      "athleteId": "A103",
+      "rider": "Julia Kopecky",
+      "team": "SD Worx-Protime",
+      "category": "Elite women",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "CZE",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/julia-kopecky/",
+      "aliases": [
+        "Julia Kopecký"
+      ],
+      "active": true,
+      "gender": "F",
+      "program": "WorldTour Women"
+    },
+    {
+      "athleteId": "A104",
+      "rider": "Lotte Kopecky",
+      "team": "SD Worx-Protime",
+      "category": "Elite women",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "BEL",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/lotte-kopecky/",
+      "aliases": [],
+      "active": true,
+      "gender": "F",
+      "program": "WorldTour Women"
+    },
+    {
+      "athleteId": "A105",
+      "rider": "Marta Lach",
+      "team": "SD Worx-Protime",
+      "category": "Elite women",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "POL",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/marta-lach/",
+      "aliases": [],
+      "active": true,
+      "gender": "F",
+      "program": "WorldTour Women"
+    },
+    {
+      "athleteId": "A106",
+      "rider": "Femke Markus",
+      "team": "SD Worx-Protime",
+      "category": "Elite women",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "NED",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/femke-markus/",
+      "aliases": [],
+      "active": true,
+      "gender": "F",
+      "program": "WorldTour Women"
+    },
+    {
+      "athleteId": "A107",
+      "rider": "Marie Schreiber",
+      "team": "SD Worx-Protime",
+      "category": "Elite women",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "LUX",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/marie-schreiber/",
+      "aliases": [],
+      "active": true,
+      "gender": "F",
+      "program": "WorldTour Women"
+    },
+    {
+      "athleteId": "A108",
+      "rider": "Blanka Kata Vas",
+      "team": "SD Worx-Protime",
+      "category": "Elite women",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "HUN",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/blanka-kata-vas/",
+      "aliases": [
+        "Blanka Vas"
+      ],
+      "active": true,
+      "gender": "F",
+      "program": "WorldTour Women"
+    },
+    {
+      "athleteId": "A109",
+      "rider": "Nienke Vinke",
+      "team": "SD Worx-Protime",
+      "category": "Elite women",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "NED",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/nienke-vinke/",
+      "aliases": [],
+      "active": true,
+      "gender": "F",
+      "program": "WorldTour Women"
+    },
+    {
+      "athleteId": "A110",
+      "rider": "Lorena Wiebes",
+      "team": "SD Worx-Protime",
+      "category": "Elite women",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "NED",
+      "primarySource": "",
+      "profileUrl": "https://www.cyclingnews.com/riders/lorena-wiebes/",
+      "aliases": [],
+      "active": true,
+      "gender": "F",
+      "program": "WorldTour Women"
+    },
+    {
+      "athleteId": "A111",
+      "rider": "Henrique Bravo",
+      "team": "Soudal-QuickStep Devo Team",
+      "category": "Men U23",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "BRA",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "Development Road"
+    },
+    {
+      "athleteId": "A112",
+      "rider": "Jose Said Cisneros",
+      "team": "Soudal-QuickStep Devo Team",
+      "category": "Men U23",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "MEX",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "Development Road"
+    },
+    {
+      "athleteId": "A113",
+      "rider": "Matjijs De Clercq",
+      "team": "Soudal-QuickStep Devo Team",
+      "category": "Men U23",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "BEL",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "Development Road"
+    },
+    {
+      "athleteId": "A114",
+      "rider": "Cerial Desal",
+      "team": "Soudal-QuickStep Devo Team",
+      "category": "Men U23",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "BEL",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "Development Road"
+    },
+    {
+      "athleteId": "A115",
+      "rider": "Hodei Munoz",
+      "team": "Soudal-QuickStep Devo Team",
+      "category": "Men U23",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "ESP",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "Development Road"
+    },
+    {
+      "athleteId": "A116",
+      "rider": "Luc Royer",
+      "team": "Soudal-QuickStep Devo Team",
+      "category": "Men U23",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "FRA",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "Development Road"
+    },
+    {
+      "athleteId": "A117",
+      "rider": "Federico Savino",
+      "team": "Soudal-QuickStep Devo Team",
+      "category": "Men U23",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "ITA",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "Development Road"
+    },
+    {
+      "athleteId": "A118",
+      "rider": "Joeri Schaper",
+      "team": "Soudal-QuickStep Devo Team",
+      "category": "Men U23",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "NED",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "Development Road"
+    },
+    {
+      "athleteId": "A119",
+      "rider": "Jasper Schoofs",
+      "team": "Soudal-QuickStep Devo Team",
+      "category": "Men U23",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "BEL",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "Development Road"
+    },
+    {
+      "athleteId": "A120",
+      "rider": "Gauthier Servranckx",
+      "team": "Soudal-QuickStep Devo Team",
+      "category": "Men U23",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "BEL",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "Development Road"
+    },
+    {
+      "athleteId": "A121",
+      "rider": "Viktor Soenens",
+      "team": "Soudal-QuickStep Devo Team",
+      "category": "Men U23",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "BEL",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "Development Road"
+    },
+    {
+      "athleteId": "A122",
+      "rider": "Erazem Valjavec",
+      "team": "Soudal-QuickStep Devo Team",
+      "category": "Men U23",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "SLV",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "Development Road"
+    },
+    {
+      "athleteId": "A123",
+      "rider": "Matijs Van Strijthem",
+      "team": "Soudal-QuickStep Devo Team",
+      "category": "Men U23",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "BEL",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "Development Road"
+    },
+    {
+      "athleteId": "A124",
+      "rider": "Stan Van Tricht",
+      "team": "Soudal-QuickStep Devo Team",
+      "category": "Men U23",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "BEL",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "Development Road"
+    },
+    {
+      "athleteId": "A125",
+      "rider": "Lars Vanden Heede",
+      "team": "Soudal-QuickStep Devo Team",
+      "category": "Men U23",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "BEL",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "Development Road"
+    },
+    {
+      "athleteId": "A126",
+      "rider": "Marc Zafra",
+      "team": "Soudal-QuickStep Devo Team",
+      "category": "Men U23",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "ESP",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "Development Road"
+    },
+    {
+      "athleteId": "A127",
+      "rider": "Marwan Bahroumi",
+      "team": "Soudal-QuickStep U19",
+      "category": "Men U19",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "SUI",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "Junior Road"
+    },
+    {
+      "athleteId": "A128",
+      "rider": "Victor De Smet",
+      "team": "Soudal-QuickStep U19",
+      "category": "Men U19",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "BEL",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "Junior Road"
+    },
+    {
+      "athleteId": "A129",
+      "rider": "Simon Defrance",
+      "team": "Soudal-QuickStep U19",
+      "category": "Men U19",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "FRA",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "Junior Road"
+    },
+    {
+      "athleteId": "A130",
+      "rider": "Victor Devos",
+      "team": "Soudal-QuickStep U19",
+      "category": "Men U19",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "FRA",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "Junior Road"
+    },
+    {
+      "athleteId": "A131",
+      "rider": "Diego Lopez",
+      "team": "Soudal-QuickStep U19",
+      "category": "Men U19",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "ESP",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "Junior Road"
+    },
+    {
+      "athleteId": "A132",
+      "rider": "Maksymilian Matyasik",
+      "team": "Soudal-QuickStep U19",
+      "category": "Men U19",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "POL",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "Junior Road"
+    },
+    {
+      "athleteId": "A133",
+      "rider": "Rene Messely",
+      "team": "Soudal-QuickStep U19",
+      "category": "Men U19",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "BEL",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [
+        "René Messely"
+      ],
+      "active": true,
+      "gender": "M",
+      "program": "Junior Road"
+    },
+    {
+      "athleteId": "A134",
+      "rider": "Valentin Petillon",
+      "team": "Soudal-QuickStep U19",
+      "category": "Men U19",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "BEL",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "Junior Road"
+    },
+    {
+      "athleteId": "A135",
+      "rider": "Gal Stare",
+      "team": "Soudal-QuickStep U19",
+      "category": "Men U19",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "SLV",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "Junior Road"
+    },
+    {
+      "athleteId": "A136",
+      "rider": "Jakub Tesarik",
+      "team": "Soudal-QuickStep U19",
+      "category": "Men U19",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "CZE",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [
+        "Jakub Tesařík"
+      ],
+      "active": true,
+      "gender": "M",
+      "program": "Junior Road"
+    },
+    {
+      "athleteId": "A137",
+      "rider": "Mathis Vandenheede",
+      "team": "Soudal-QuickStep U19",
+      "category": "Men U19",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "BEL",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "Junior Road"
+    },
+    {
+      "athleteId": "A138",
+      "rider": "Julius Lovstrup Birkedal",
+      "team": "grenke-Auto Eder",
+      "category": "Men U19",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "DEN",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [
+        "Julius Løvstrup Birkedal"
+      ],
+      "active": true,
+      "gender": "M",
+      "program": "Junior Road"
+    },
+    {
+      "athleteId": "A139",
+      "rider": "Maj Bohak",
+      "team": "grenke-Auto Eder",
+      "category": "Men U19",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "SLV",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "Junior Road"
+    },
+    {
+      "athleteId": "A140",
+      "rider": "Mads Furenes",
+      "team": "grenke-Auto Eder",
+      "category": "Men U19",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "NOR",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "Junior Road"
+    },
+    {
+      "athleteId": "A141",
+      "rider": "Karl Herzog",
+      "team": "grenke-Auto Eder",
+      "category": "Men U19",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "DEU",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "Junior Road"
+    },
+    {
+      "athleteId": "A142",
+      "rider": "Enzo Hincapie",
+      "team": "grenke-Auto Eder",
+      "category": "Men U19",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "USA",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "Junior Road"
+    },
+    {
+      "athleteId": "A143",
+      "rider": "Joshua Johnson",
+      "team": "grenke-Auto Eder",
+      "category": "Men U19",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "RSA",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "Junior Road"
+    },
+    {
+      "athleteId": "A144",
+      "rider": "Georgs Tjumins",
+      "team": "grenke-Auto Eder",
+      "category": "Men U19",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "LVA",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "Junior Road"
+    },
+    {
+      "athleteId": "A145",
+      "rider": "Sander Willems",
+      "team": "grenke-Auto Eder",
+      "category": "Men U19",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "BEL",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "Junior Road"
+    },
+    {
+      "athleteId": "A146",
+      "rider": "Gustave Blanc",
+      "team": "Red Bull-Bora-hansgrohe Rookies",
+      "category": "Men U23",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "FRA",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "Development Road"
+    },
+    {
+      "athleteId": "A147",
+      "rider": "Max Bock",
+      "team": "Red Bull-Bora-hansgrohe Rookies",
+      "category": "Men U23",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "DEU",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "Development Road"
+    },
+    {
+      "athleteId": "A148",
+      "rider": "Theodor August Clemmensen",
+      "team": "Red Bull-Bora-hansgrohe Rookies",
+      "category": "Men U23",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "DEN",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "Development Road"
+    },
+    {
+      "athleteId": "A149",
+      "rider": "Davide Donati",
+      "team": "Red Bull-Bora-hansgrohe Rookies",
+      "category": "Men U23",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "ITA",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "Development Road"
+    },
+    {
+      "athleteId": "A150",
+      "rider": "Paul Fietzke",
+      "team": "Red Bull-Bora-hansgrohe Rookies",
+      "category": "Men U23",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "DEU",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "Development Road"
+    },
+    {
+      "athleteId": "A151",
+      "rider": "Lorenzo Finn",
+      "team": "Red Bull-Bora-hansgrohe Rookies",
+      "category": "Men U23",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "ITA",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "Development Road"
+    },
+    {
+      "athleteId": "A152",
+      "rider": "Anatol Friedl",
+      "team": "Red Bull-Bora-hansgrohe Rookies",
+      "category": "Men U23",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "AUT",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "Development Road"
+    },
+    {
+      "athleteId": "A153",
+      "rider": "Alessio Magagnotti",
+      "team": "Red Bull-Bora-hansgrohe Rookies",
+      "category": "Men U23",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "ITA",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "Development Road"
+    },
+    {
+      "athleteId": "A154",
+      "rider": "Michiel Mouris",
+      "team": "Red Bull-Bora-hansgrohe Rookies",
+      "category": "Men U23",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "FRA",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "Development Road"
+    },
+    {
+      "athleteId": "A155",
+      "rider": "Noah Lindholm Moller Andersen",
+      "team": "Red Bull-Bora-hansgrohe Rookies",
+      "category": "Men U23",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "DEN",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [
+        "Noah Lindholm Møller Andersen"
+      ],
+      "active": true,
+      "gender": "M",
+      "program": "Development Road"
+    },
+    {
+      "athleteId": "A156",
+      "rider": "Romet Pajur",
+      "team": "Red Bull-Bora-hansgrohe Rookies",
+      "category": "Men U23",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "EST",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "Development Road"
+    },
+    {
+      "athleteId": "A157",
+      "rider": "Sebastian Putz",
+      "team": "Red Bull-Bora-hansgrohe Rookies",
+      "category": "Men U23",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "AUT",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "Development Road"
+    },
+    {
+      "athleteId": "A158",
+      "rider": "Gijs Schoonvelde",
+      "team": "Red Bull-Bora-hansgrohe Rookies",
+      "category": "Men U23",
+      "primaryDiscipline": "Road",
+      "additionalDisciplines": [
+        "Time Trial",
+        "Track",
+        "Cyclocross"
+      ],
+      "country": "NED",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "Development Road"
+    },
+    {
+      "athleteId": "A159",
+      "rider": "Tobias Kongstad",
+      "team": "PAS Normal",
+      "category": "Elite men",
+      "primaryDiscipline": "Gravel",
+      "additionalDisciplines": [],
+      "country": "DEN",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "Gravel"
+    },
+    {
+      "athleteId": "A160",
+      "rider": "Daniel Oss",
+      "team": "",
+      "category": "Elite men",
+      "primaryDiscipline": "Gravel",
+      "additionalDisciplines": [],
+      "country": "ITA",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "Gravel Privateer"
+    },
+    {
+      "athleteId": "A161",
+      "rider": "Lael Wilcox",
+      "team": "",
+      "category": "Elite women",
+      "primaryDiscipline": "Gravel",
+      "additionalDisciplines": [],
+      "country": "USA",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "F",
+      "program": "Gravel Privateer"
+    },
+    {
+      "athleteId": "A162",
+      "rider": "Sarah Sturm",
+      "team": "",
+      "category": "Elite women",
+      "primaryDiscipline": "Gravel",
+      "additionalDisciplines": [],
+      "country": "USA",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "F",
+      "program": "Gravel Privateer"
+    },
+    {
+      "athleteId": "A163",
+      "rider": "Geerike Schreurs",
+      "team": "Specialized Offroad",
+      "category": "Elite women",
+      "primaryDiscipline": "Gravel",
+      "additionalDisciplines": [],
+      "country": "NED",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [
+        "Gee Schreurs",
+        "Geertje Schreurs"
+      ],
+      "active": true,
+      "gender": "F",
+      "program": "Gravel"
+    },
+    {
+      "athleteId": "A164",
+      "rider": "Keegan Swenson",
+      "team": "Specialized Offroad",
+      "category": "Elite men",
+      "primaryDiscipline": "Gravel",
+      "additionalDisciplines": [],
+      "country": "USA",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "Gravel"
+    },
+    {
+      "athleteId": "A165",
+      "rider": "Mads Würtz Schmidt",
+      "team": "Specialized Offroad",
+      "category": "Elite men",
+      "primaryDiscipline": "Gravel",
+      "additionalDisciplines": [],
+      "country": "DEN",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [
+        "Mads Würtz",
+        "Mads Wurtz"
+      ],
+      "active": true,
+      "gender": "M",
+      "program": "Gravel"
+    },
+    {
+      "athleteId": "A166",
+      "rider": "Matt Beers",
+      "team": "Specialized Offroad",
+      "category": "Elite men",
+      "primaryDiscipline": "Gravel",
+      "additionalDisciplines": [],
+      "country": "RSA",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "Gravel"
+    },
+    {
+      "athleteId": "A167",
+      "rider": "Sofía Gómez Villafane",
+      "team": "Specialized Offroad",
+      "category": "Elite women",
+      "primaryDiscipline": "Gravel",
+      "additionalDisciplines": [],
+      "country": "USA",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [
+        "Sofia Gomez Villafane",
+        "Sofia Villafane",
+        "Sofia Gomez"
+      ],
+      "active": true,
+      "gender": "F",
+      "program": "Gravel"
+    },
+    {
+      "athleteId": "A168",
+      "rider": "Annika Langvad",
+      "team": "Specialized Offroad",
+      "category": "Elite women",
+      "primaryDiscipline": "Gravel",
+      "additionalDisciplines": [],
+      "country": "DEN",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "F",
+      "program": "Gravel"
+    },
+    {
+      "athleteId": "A169",
+      "rider": "Ned Overend",
+      "team": "",
+      "category": "Elite men",
+      "primaryDiscipline": "MTB",
+      "additionalDisciplines": [
+        "XCO",
+        "Marathon"
+      ],
+      "country": "USA",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "MTB Privateer"
+    },
+    {
+      "athleteId": "A170",
+      "rider": "Peter Sagan",
+      "team": "",
+      "category": "Elite men",
+      "primaryDiscipline": "MTB",
+      "additionalDisciplines": [
+        "Road"
+      ],
+      "country": "SLV",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "MTB Privateer"
+    },
+    {
+      "athleteId": "A171",
+      "rider": "Christoph Sauser",
+      "team": "",
+      "category": "Elite men",
+      "primaryDiscipline": "MTB",
+      "additionalDisciplines": [
+        "XCO",
+        "Marathon"
+      ],
+      "country": "SUI",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "MTB Privateer"
+    },
+    {
+      "athleteId": "A172",
+      "rider": "Chris Grice",
+      "team": "Gen-S",
+      "category": "Men U23",
+      "primaryDiscipline": "DH",
+      "additionalDisciplines": [
+        "DH",
+        "Enduro",
+        "Downhill"
+      ],
+      "country": "USA",
+      "primarySource": "",
+      "profileUrl": "https://mtbdata.com/riders/christopher-grice",
+      "aliases": [
+        "Christopher Grice"
+      ],
+      "active": true,
+      "gender": "M",
+      "program": "DH Development"
+    },
+    {
+      "athleteId": "A173",
+      "rider": "Rosa Marie Jensen",
+      "team": "Gen-S",
+      "category": "Junior Women",
+      "primaryDiscipline": "DH",
+      "additionalDisciplines": [
+        "DH",
+        "Enduro",
+        "Downhill"
+      ],
+      "country": "DEN",
+      "primarySource": "",
+      "profileUrl": "https://mtbdata.com/riders/marie-rosa-jensen",
+      "aliases": [],
+      "active": true,
+      "gender": "F",
+      "program": "DH Development"
+    },
+    {
+      "athleteId": "A174",
+      "rider": "Raphael Giambi",
+      "team": "Gen-S",
+      "category": "Men U23",
+      "primaryDiscipline": "DH",
+      "additionalDisciplines": [
+        "DH",
+        "Enduro",
+        "Downhill"
+      ],
+      "country": "FRA",
+      "primarySource": "",
+      "profileUrl": "https://mtbdata.com/riders/giambi-raphael",
+      "aliases": [
+        "Raphaël Giambi"
+      ],
+      "active": true,
+      "gender": "M",
+      "program": "DH Development"
+    },
+    {
+      "athleteId": "A175",
+      "rider": "Harry Schofield",
+      "team": "Gen-S",
+      "category": "",
+      "primaryDiscipline": "DH",
+      "additionalDisciplines": [
+        "DH",
+        "Enduro",
+        "Downhill"
+      ],
+      "country": "GBR",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "",
+      "program": "DH Development"
+    },
+    {
+      "athleteId": "A176",
+      "rider": "Mack Manietta",
+      "team": "Gen-S",
+      "category": "",
+      "primaryDiscipline": "DH",
+      "additionalDisciplines": [
+        "DH",
+        "Enduro",
+        "Downhill"
+      ],
+      "country": "CAN",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "",
+      "program": "DH Development"
+    },
+    {
+      "athleteId": "A177",
+      "rider": "Marcel Barrachina",
+      "team": "Gen-S",
+      "category": "",
+      "primaryDiscipline": "DH",
+      "additionalDisciplines": [
+        "DH",
+        "Enduro",
+        "Downhill"
+      ],
+      "country": "ESP",
+      "primarySource": "",
+      "profileUrl": "https://mtbdata.com/riders/marcel-barrachina-navarro",
+      "aliases": [
+        "Marcel Barrachina Navarro"
+      ],
+      "active": true,
+      "gender": "",
+      "program": "DH Development"
+    },
+    {
+      "athleteId": "A178",
+      "rider": "Ava Chaumet Lagrange",
+      "team": "Gen-S",
+      "category": "",
+      "primaryDiscipline": "DH",
+      "additionalDisciplines": [
+        "DH",
+        "Enduro",
+        "Downhill"
+      ],
+      "country": "FRA",
+      "primarySource": "",
+      "profileUrl": "https://mtbdata.com/riders/ava-chaumet-lagrange",
+      "aliases": [],
+      "active": true,
+      "gender": "",
+      "program": "DH Development"
+    },
+    {
+      "athleteId": "A179",
+      "rider": "Loïc Bruni",
+      "team": "Specialized Gravity",
+      "category": "Elite men",
+      "primaryDiscipline": "DH",
+      "additionalDisciplines": [
+        "DH",
+        "Enduro",
+        "Downhill"
+      ],
+      "country": "FRA",
+      "primarySource": "",
+      "profileUrl": "https://mtbdata.com/riders/loic-bruni",
+      "aliases": [
+        "Loic Bruni"
+      ],
+      "active": true,
+      "gender": "M",
+      "program": "DH"
+    },
+    {
+      "athleteId": "A180",
+      "rider": "Jordan Williams",
+      "team": "Specialized Gravity",
+      "category": "Elite men",
+      "primaryDiscipline": "DH",
+      "additionalDisciplines": [
+        "DH",
+        "Enduro",
+        "Downhill"
+      ],
+      "country": "GBR",
+      "primarySource": "",
+      "profileUrl": "https://mtbdata.com/riders/jordan-williams",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "DH"
+    },
+    {
+      "athleteId": "A181",
+      "rider": "Finn Iles",
+      "team": "Specialized Gravity",
+      "category": "Elite men",
+      "primaryDiscipline": "DH",
+      "additionalDisciplines": [
+        "DH",
+        "Enduro",
+        "Downhill"
+      ],
+      "country": "CAN",
+      "primarySource": "",
+      "profileUrl": "https://mtbdata.com/riders/finn-iles",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "DH"
+    },
+    {
+      "athleteId": "A182",
+      "rider": "Joris Ryf",
+      "team": "Specialized E-Racing",
+      "category": "Elite men",
+      "primaryDiscipline": "MTB",
+      "additionalDisciplines": [
+        "MTB",
+        "XCO",
+        "Enduro",
+        "XCC",
+        "E-MTB",
+        "E-XCO",
+        "Marathon"
+      ],
+      "country": "SUI",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "E-MTB"
+    },
+    {
+      "athleteId": "A183",
+      "rider": "Sofia Wiedenroth",
+      "team": "Specialized E-Racing",
+      "category": "Elite women",
+      "primaryDiscipline": "MTB",
+      "additionalDisciplines": [
+        "MTB",
+        "XCO",
+        "Enduro",
+        "XCC",
+        "E-MTB",
+        "E-XCO",
+        "Marathon"
+      ],
+      "country": "DEU",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "F",
+      "program": "E-MTB"
+    },
+    {
+      "athleteId": "A184",
+      "rider": "Alma Wiggberg",
+      "team": "",
+      "category": "Elite women",
+      "primaryDiscipline": "MTB",
+      "additionalDisciplines": [
+        "Freeride"
+      ],
+      "country": "SWE",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "F",
+      "program": "MTB Privateer"
+    },
+    {
+      "athleteId": "A185",
+      "rider": "Dawid Godziek",
+      "team": "",
+      "category": "Elite men",
+      "primaryDiscipline": "MTB",
+      "additionalDisciplines": [
+        "Freeride"
+      ],
+      "country": "POL",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "MTB Privateer"
+    },
+    {
+      "athleteId": "A186",
+      "rider": "Szymon Godziek",
+      "team": "",
+      "category": "Elite men",
+      "primaryDiscipline": "MTB",
+      "additionalDisciplines": [
+        "Freeride"
+      ],
+      "country": "POL",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "MTB Privateer"
+    },
+    {
+      "athleteId": "A187",
+      "rider": "Chance Moore",
+      "team": "",
+      "category": "Elite men",
+      "primaryDiscipline": "MTB",
+      "additionalDisciplines": [
+        "Freeride"
+      ],
+      "country": "CAN",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "MTB Privateer"
+    },
+    {
+      "athleteId": "A188",
+      "rider": "Nicholi Rogatkin",
+      "team": "",
+      "category": "Elite men",
+      "primaryDiscipline": "MTB",
+      "additionalDisciplines": [
+        "Freeride"
+      ],
+      "country": "USA",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "MTB Privateer"
+    },
+    {
+      "athleteId": "A189",
+      "rider": "Lucy van Eesteren",
+      "team": "",
+      "category": "Elite women",
+      "primaryDiscipline": "MTB",
+      "additionalDisciplines": [
+        "Freeride"
+      ],
+      "country": "CAN",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "F",
+      "program": "MTB Privateer"
+    },
+    {
+      "athleteId": "A190",
+      "rider": "Remy Morton",
+      "team": "",
+      "category": "Elite men",
+      "primaryDiscipline": "MTB",
+      "additionalDisciplines": [
+        "Freeride"
+      ],
+      "country": "NZL",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "MTB Privateer"
+    },
+    {
+      "athleteId": "A191",
+      "rider": "David McMillan",
+      "team": "",
+      "category": "Elite men",
+      "primaryDiscipline": "MTB",
+      "additionalDisciplines": [
+        "Freeride"
+      ],
+      "country": "NZL",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [
+        "Dave McMillan"
+      ],
+      "active": true,
+      "gender": "M",
+      "program": "MTB Privateer"
+    },
+    {
+      "athleteId": "A192",
+      "rider": "Matt Begg",
+      "team": "",
+      "category": "Elite men",
+      "primaryDiscipline": "MTB",
+      "additionalDisciplines": [
+        "Freeride"
+      ],
+      "country": "NZL",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "MTB Privateer"
+    },
+    {
+      "athleteId": "A193",
+      "rider": "Chelsea Kimball",
+      "team": "",
+      "category": "Elite women",
+      "primaryDiscipline": "MTB",
+      "additionalDisciplines": [
+        "Freeride"
+      ],
+      "country": "USA",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "F",
+      "program": "MTB Privateer"
+    },
+    {
+      "athleteId": "A194",
+      "rider": "Kriss Kyle",
+      "team": "",
+      "category": "Elite men",
+      "primaryDiscipline": "MTB",
+      "additionalDisciplines": [
+        "Freeride"
+      ],
+      "country": "GBR",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "MTB Privateer"
+    },
+    {
+      "athleteId": "A195",
+      "rider": "Christian Rigal",
+      "team": "",
+      "category": "Elite men",
+      "primaryDiscipline": "MTB",
+      "additionalDisciplines": [
+        "Freeride"
+      ],
+      "country": "USA",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "MTB Privateer"
+    },
+    {
+      "athleteId": "A196",
+      "rider": "Yuki Kishi",
+      "team": "",
+      "category": "Elite men",
+      "primaryDiscipline": "MTB",
+      "additionalDisciplines": [
+        "Freeride"
+      ],
+      "country": "Japan",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "MTB Privateer"
+    },
+    {
+      "athleteId": "A197",
+      "rider": "Ayato Kimura",
+      "team": "",
+      "category": "Elite men",
+      "primaryDiscipline": "MTB",
+      "additionalDisciplines": [
+        "Freeride"
+      ],
+      "country": "Japan",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "MTB Privateer"
+    },
+    {
+      "athleteId": "A198",
+      "rider": "Jerrell Webster",
+      "team": "",
+      "category": "Elite men",
+      "primaryDiscipline": "MTB",
+      "additionalDisciplines": [
+        "Freeride"
+      ],
+      "country": "USA",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "MTB Privateer"
+    },
+    {
+      "athleteId": "A199",
+      "rider": "Matt Hunter",
+      "team": "",
+      "category": "Elite men",
+      "primaryDiscipline": "MTB",
+      "additionalDisciplines": [
+        "Trail"
+      ],
+      "country": "CAN",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "MTB Privateer"
+    },
+    {
+      "athleteId": "A200",
+      "rider": "Matty Miles",
+      "team": "",
+      "category": "Elite men",
+      "primaryDiscipline": "MTB",
+      "additionalDisciplines": [
+        "Trail"
+      ],
+      "country": "CAN",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [
+        "Matthew Miles"
+      ],
+      "active": true,
+      "gender": "M",
+      "program": "MTB Privateer"
+    },
+    {
+      "athleteId": "A201",
+      "rider": "Cassandre Beaugrand",
+      "team": "",
+      "category": "Elite women",
+      "primaryDiscipline": "Triathlon",
+      "additionalDisciplines": [
+        "WTCS",
+        "Olympics"
+      ],
+      "country": "FRA",
+      "primarySource": "",
+      "profileUrl": "https://stats.protriathletes.org/athlete/cassandre-beaugrand",
+      "aliases": [],
+      "active": true,
+      "gender": "F",
+      "program": "Triathlon"
+    },
+    {
+      "athleteId": "A202",
+      "rider": "Vasco Vilaca",
+      "team": "",
+      "category": "Elite men",
+      "primaryDiscipline": "Triathlon",
+      "additionalDisciplines": [
+        "Ironman",
+        "WTCS",
+        "Olympic"
+      ],
+      "country": "ESP",
+      "primarySource": "",
+      "profileUrl": "https://stats.protriathletes.org/athlete/vasco-vilaca",
+      "aliases": [
+        "Vasco de Paiva Vilaça",
+        "Vasco Vilaça"
+      ],
+      "active": true,
+      "gender": "M",
+      "program": "Triathlon"
+    },
+    {
+      "athleteId": "A203",
+      "rider": "Matt Hauser",
+      "team": "",
+      "category": "Elite men",
+      "primaryDiscipline": "Triathlon",
+      "additionalDisciplines": [
+        "Ironman",
+        "WTCS",
+        "Olympic"
+      ],
+      "country": "AUS",
+      "primarySource": "",
+      "profileUrl": "https://stats.protriathletes.org/athlete/matthew-hauser",
+      "aliases": [
+        "Matthew Hauser"
+      ],
+      "active": true,
+      "gender": "M",
+      "program": "Triathlon"
+    },
+    {
+      "athleteId": "A204",
+      "rider": "Paula Findlay",
+      "team": "",
+      "category": "Elite women",
+      "primaryDiscipline": "Triathlon",
+      "additionalDisciplines": [
+        "T100",
+        "Ironman"
+      ],
+      "country": "CAN",
+      "primarySource": "",
+      "profileUrl": "https://stats.protriathletes.org/athlete/paula-findlay",
+      "aliases": [],
+      "active": true,
+      "gender": "F",
+      "program": "Triathlon"
+    },
+    {
+      "athleteId": "A205",
+      "rider": "Eric Lagerstrom",
+      "team": "",
+      "category": "Elite men",
+      "primaryDiscipline": "Triathlon",
+      "additionalDisciplines": [],
+      "country": "USA",
+      "primarySource": "",
+      "profileUrl": "https://stats.protriathletes.org/athlete/eric-lagerstrom",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "Triathlon"
+    },
+    {
+      "athleteId": "A206",
+      "rider": "Vincent Luis",
+      "team": "",
+      "category": "Elite men",
+      "primaryDiscipline": "Triathlon",
+      "additionalDisciplines": [
+        "T100",
+        "Ironman"
+      ],
+      "country": "FRA",
+      "primarySource": "",
+      "profileUrl": "https://stats.protriathletes.org/athlete/vincent-luis",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "Triathlon"
+    },
+    {
+      "athleteId": "A207",
+      "rider": "Vida Lopez de San Roman",
+      "team": "Trinity Racing",
+      "category": "",
+      "primaryDiscipline": "MTB",
+      "additionalDisciplines": [
+        "XCO",
+        "XCC",
+        "Marathon"
+      ],
+      "country": "USA",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "",
+      "program": "MTB Development"
+    },
+    {
+      "athleteId": "A208",
+      "rider": "Line Burquier",
+      "team": "Trinity Racing",
+      "category": "",
+      "primaryDiscipline": "MTB",
+      "additionalDisciplines": [
+        "XCO",
+        "XCC",
+        "Marathon"
+      ],
+      "country": "FRA",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "",
+      "program": "MTB Development"
+    },
+    {
+      "athleteId": "A209",
+      "rider": "Lauren Aggela",
+      "team": "Trinity Racing",
+      "category": "",
+      "primaryDiscipline": "MTB",
+      "additionalDisciplines": [
+        "XCO",
+        "XCC",
+        "Marathon"
+      ],
+      "country": "USA",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "",
+      "program": "MTB Development"
+    },
+    {
+      "athleteId": "A210",
+      "rider": "Dan English",
+      "team": "Trinity Racing",
+      "category": "",
+      "primaryDiscipline": "MTB",
+      "additionalDisciplines": [
+        "XCO",
+        "XCC",
+        "Marathon"
+      ],
+      "country": "USA",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "",
+      "program": "MTB Development"
+    },
+    {
+      "athleteId": "A211",
+      "rider": "Henry Coote",
+      "team": "Trinity Racing",
+      "category": "",
+      "primaryDiscipline": "MTB",
+      "additionalDisciplines": [
+        "XCO",
+        "XCC",
+        "Marathon"
+      ],
+      "country": "USA",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "",
+      "program": "MTB Development"
+    },
+    {
+      "athleteId": "A212",
+      "rider": "Corran Carrick Anderson",
+      "team": "Trinity Racing",
+      "category": "",
+      "primaryDiscipline": "MTB",
+      "additionalDisciplines": [
+        "XCO",
+        "XCC",
+        "Marathon"
+      ],
+      "country": "GBR",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "",
+      "program": "MTB Development"
+    },
+    {
+      "athleteId": "A213",
+      "rider": "Christopher Blevins",
+      "team": "Specialized Factory Racing",
+      "category": "Elite men",
+      "primaryDiscipline": "MTB",
+      "additionalDisciplines": [
+        "XCO",
+        "XCC",
+        "Marathon"
+      ],
+      "country": "USA",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [
+        "Chris Blevins"
+      ],
+      "active": true,
+      "gender": "M",
+      "program": "MTB XC"
+    },
+    {
+      "athleteId": "A214",
+      "rider": "Victor Koretzky",
+      "team": "Specialized Factory Racing",
+      "category": "Elite men",
+      "primaryDiscipline": "MTB",
+      "additionalDisciplines": [
+        "XCO",
+        "XCC",
+        "Marathon"
+      ],
+      "country": "FRA",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "M",
+      "program": "MTB XC"
+    },
+    {
+      "athleteId": "A215",
+      "rider": "Martin Vidaurre",
+      "team": "Specialized Factory Racing",
+      "category": "Elite men",
+      "primaryDiscipline": "MTB",
+      "additionalDisciplines": [
+        "XCO",
+        "XCC",
+        "Marathon"
+      ],
+      "country": "CHL",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [
+        "Martín Vidaurre Kossmann"
+      ],
+      "active": true,
+      "gender": "M",
+      "program": "MTB XC"
+    },
+    {
+      "athleteId": "A216",
+      "rider": "Haley Batten",
+      "team": "Specialized Factory Racing",
+      "category": "Elite women",
+      "primaryDiscipline": "MTB",
+      "additionalDisciplines": [
+        "XCO",
+        "XCC",
+        "Marathon"
+      ],
+      "country": "USA",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "F",
+      "program": "MTB XC"
+    },
+    {
+      "athleteId": "A217",
+      "rider": "Sina Frei",
+      "team": "Specialized Factory Racing",
+      "category": "Elite women",
+      "primaryDiscipline": "MTB",
+      "additionalDisciplines": [
+        "XCO",
+        "XCC",
+        "Marathon"
+      ],
+      "country": "SUI",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "F",
+      "program": "MTB XC"
+    },
+    {
+      "athleteId": "A218",
+      "rider": "Laura Stigger",
+      "team": "Specialized Factory Racing",
+      "category": "Elite women",
+      "primaryDiscipline": "MTB",
+      "additionalDisciplines": [
+        "XCO",
+        "XCC",
+        "Marathon"
+      ],
+      "country": "AUT",
+      "primarySource": "",
+      "profileUrl": "",
+      "aliases": [],
+      "active": true,
+      "gender": "F",
+      "program": "MTB XC"
+    }
+  ]
+}
