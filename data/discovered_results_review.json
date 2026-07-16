@@ -1,6 +1,875 @@
 {
-  "lastUpdated": "2026-07-16T18:02:34+00:00",
-  "note": "Rows not published by PCS event-page or MTBData parsers.",
-  "candidateCount": 0,
-  "candidates": []
+  "lastUpdated": "2026-07-16T21:46:23+00:00",
+  "note": "Rows not published because they were missing a 2026 date, had bad race names, or failed matching.",
+  "candidateCount": 124,
+  "candidates": [
+    {
+      "sourceUrl": "https://mtbdata.com/riders/christopher-grice",
+      "race": "UCI Mountain Bike Continental Series - Monster Energy Pro Downhill Series - Rock Creek Men Elite - Downhill USA - Zirconia, NC",
+      "athlete": "Chris Grice",
+      "pos": 13,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/christopher-grice",
+      "race": "Red Bull Tennessee National Men Elite - Downhill USA - Windrock Bike Park, Oliver Springs, Tennessee",
+      "athlete": "Chris Grice",
+      "pos": 15,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/christopher-grice",
+      "race": "Costa Rica Open Downhill Men Elite - Downhill CRC - Pista El Cabuyal, Cartago",
+      "athlete": "Chris Grice",
+      "pos": 3,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/giambi-raphael",
+      "race": "UCI MOUNTAIN BIKE WORLD CUP – EDR Men Elite - Enduro ITA - Val di Fassa - Trentino",
+      "athlete": "Raphael Giambi",
+      "pos": 10,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/giambi-raphael",
+      "race": "UCI MOUNTAIN BIKE WORLD CUP – DHI/EDR Men Elite - Enduro FRA - Loudenvielle-Peyragudes",
+      "athlete": "Raphael Giambi",
+      "pos": 2,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/giambi-raphael",
+      "race": "French National Championships - EDR/E-EDR Men Elite - Enduro FRA - Brassac",
+      "athlete": "Raphael Giambi",
+      "pos": 8,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/giambi-raphael",
+      "race": "French National Championships - EDR/E-EDR Men Elite - Enduro FRA - L'Île-Rousse, Corsica Bike Festival",
+      "athlete": "Raphael Giambi",
+      "pos": 10,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/giambi-raphael",
+      "race": "UCI MOUNTAIN BIKE WORLD CUP – DHI/EDR Men Elite - Enduro FRA - Loudenvielle - Peyragudes",
+      "athlete": "Raphael Giambi",
+      "pos": 9,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/giambi-raphael",
+      "race": "iXS European Downhill Cup - Nevis Range Men Elite - Downhill GBR - Fort William",
+      "athlete": "Raphael Giambi",
+      "pos": 18,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/marcel-barrachina-navarro",
+      "race": "UCI Mountain Bike Continental Series - MTB French Cup - DHI Men Junior - Downhill FRA - Les 2 Alpes",
+      "athlete": "Marcel Barrachina",
+      "pos": 2,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/marcel-barrachina-navarro",
+      "race": "MTB French Cup - DHI Men Elite - Downhill FRA - Métabief",
+      "athlete": "Marcel Barrachina",
+      "pos": 4,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/ava-chaumet-lagrange",
+      "race": "UCI MOUNTAIN BIKE WORLD CUP – XCO/XCC/DHI Women Junior - Downhill SUI - Lenzerheide",
+      "athlete": "Ava Chaumet Lagrange",
+      "pos": 9,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/ava-chaumet-lagrange",
+      "race": "UCI MOUNTAIN BIKE WORLD CUP – DHI/EDR Women Junior - Downhill FRA - Loudenvielle-Peyragudes",
+      "athlete": "Ava Chaumet Lagrange",
+      "pos": 9,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/ava-chaumet-lagrange",
+      "race": "UCI Mountain Bike Continental Series - iXS European Downhill Cup Fort William Women Junior - Downhill GBR - Fort William",
+      "athlete": "Ava Chaumet Lagrange",
+      "pos": 2,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/loic-bruni",
+      "race": "UCI Mountain Bike Continental Series - Crankworx - Christchurch Downhill Men Elite - Downhill NZL - Christchurch",
+      "athlete": "Loïc Bruni",
+      "pos": 4,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/loic-bruni",
+      "race": "UCI MOUNTAIN BIKE WORLD CUP – XCO/XCC/DHI Men Elite - Downhill Qualifying Round 1 SUI - Bike Kingdom - Lenzerheide",
+      "athlete": "Loïc Bruni",
+      "pos": 1,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/loic-bruni",
+      "race": "UCI MOUNTAIN BIKE WORLD CUP – XCO/XCC/DHI Men Elite - Downhill SUI - Bike Kingdom - Lenzerheide",
+      "athlete": "Loïc Bruni",
+      "pos": 5,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/loic-bruni",
+      "race": "UCI MOUNTAIN BIKE WORLD CUP – XCO/XCC/DHI Men Elite - Downhill Qualifying Round 1 FRA - Haute-Savoie",
+      "athlete": "Loïc Bruni",
+      "pos": 3,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/loic-bruni",
+      "race": "UCI MOUNTAIN BIKE WORLD CUP – XCO/XCC/DHI Men Elite - Downhill FRA - Haute-Savoie",
+      "athlete": "Loïc Bruni",
+      "pos": 5,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/loic-bruni",
+      "race": "UCI MOUNTAIN BIKE WORLD CUP – XCO/XCC/DHI Men Elite - Downhill Qualifying Round 1 ITA - Val di Sole - Trentino",
+      "athlete": "Loïc Bruni",
+      "pos": 3,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/loic-bruni",
+      "race": "UCI MOUNTAIN BIKE WORLD CUP – XCO/XCC/DHI Men Elite - Downhill ITA - Val di Sole - Trentino",
+      "athlete": "Loïc Bruni",
+      "pos": 6,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/loic-bruni",
+      "race": "UCI MOUNTAIN BIKE WORLD CUP – DHI/EDR Men Elite - Downhill FRA - Loudenvielle - Peyragudes",
+      "athlete": "Loïc Bruni",
+      "pos": 15,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/loic-bruni",
+      "race": "UCI MOUNTAIN BIKE WORLD CUP – DHI/EDR Men Elite - Downhill Qualifying Round 1 FRA - Loudenvielle - Peyragudes",
+      "athlete": "Loïc Bruni",
+      "pos": 2,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/loic-bruni",
+      "race": "UCI MOUNTAIN BIKE WORLD CUP – DHI/EDR Men Elite - Downhill Qualifying Round 1 POL - Enduro Trails - Bielsko-Biala - Szczyrk",
+      "athlete": "Loïc Bruni",
+      "pos": 1,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/loic-bruni",
+      "race": "UCI MOUNTAIN BIKE WORLD CUP – DHI/EDR Men Elite - Downhill POL - Enduro Trails - Bielsko-Biala - Szczyrk",
+      "athlete": "Loïc Bruni",
+      "pos": 1,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/jordan-williams",
+      "race": "UCI MOUNTAIN BIKE WORLD CUP – XCO/XCC/DHI Men Elite - Downhill Qualifying Round 1 SUI - Lenzerheide",
+      "athlete": "Jordan Williams",
+      "pos": 15,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/jordan-williams",
+      "race": "UCI MOUNTAIN BIKE WORLD CUP – XCO/XCC/DHI Men Elite - Downhill SUI - Lenzerheide",
+      "athlete": "Jordan Williams",
+      "pos": 6,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/jordan-williams",
+      "race": "UCI MOUNTAIN BIKE WORLD CUP – DHI/EDR Men Elite - Downhill Qualifying Round 1 FRA - Loudenvielle-Peyragudes",
+      "athlete": "Jordan Williams",
+      "pos": 1,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/jordan-williams",
+      "race": "UCI MOUNTAIN BIKE WORLD CUP – DHI/EDR Men Elite - Downhill FRA - Loudenvielle-Peyragudes",
+      "athlete": "Jordan Williams",
+      "pos": 3,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/jordan-williams",
+      "race": "UCI MOUNTAIN BIKE WORLD CUP – XCO/XCC/DHI Men Elite - Downhill Qualifying Round 1 SUI - Bike Kingdom - Lenzerheide",
+      "athlete": "Jordan Williams",
+      "pos": 6,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/jordan-williams",
+      "race": "UCI MOUNTAIN BIKE WORLD CUP – XCO/XCC/DHI Men Elite - Downhill SUI - Bike Kingdom - Lenzerheide",
+      "athlete": "Jordan Williams",
+      "pos": 26,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/jordan-williams",
+      "race": "British National Championships - DHI Men Elite - Downhill GBR - Fort William",
+      "athlete": "Jordan Williams",
+      "pos": 1,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/jordan-williams",
+      "race": "UCI MOUNTAIN BIKE WORLD CUP – XCO/XCC/DHI Men Elite - Downhill ITA - Val di Sole - Trentino",
+      "athlete": "Jordan Williams",
+      "pos": 8,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/jordan-williams",
+      "race": "UCI MOUNTAIN BIKE WORLD CUP – DHI/EDR Men Elite - Downhill FRA - Loudenvielle - Peyragudes",
+      "athlete": "Jordan Williams",
+      "pos": 3,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/jordan-williams",
+      "race": "UCI MOUNTAIN BIKE WORLD CUP – DHI/EDR Men Elite - Downhill Qualifying Round 1 FRA - Loudenvielle - Peyragudes",
+      "athlete": "Jordan Williams",
+      "pos": 22,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/jordan-williams",
+      "race": "UCI MOUNTAIN BIKE WORLD CUP – DHI/EDR Men Elite - Downhill Qualifying Round 1 POL - Enduro Trails - Bielsko-Biala - Szczyrk",
+      "athlete": "Jordan Williams",
+      "pos": 22,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/jordan-williams",
+      "race": "UCI MOUNTAIN BIKE WORLD CUP – DHI/EDR Men Elite - Downhill POL - Enduro Trails - Bielsko-Biala - Szczyrk",
+      "athlete": "Jordan Williams",
+      "pos": 14,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/finn-iles",
+      "race": "UCI MOUNTAIN BIKE WORLD CUP – XCO/XCC/DHI Men Elite - Downhill Qualifying Round 1 SUI - Lenzerheide",
+      "athlete": "Finn Iles",
+      "pos": 3,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/finn-iles",
+      "race": "UCI MOUNTAIN BIKE WORLD CUP – XCO/XCC/DHI Men Elite - Downhill SUI - Lenzerheide",
+      "athlete": "Finn Iles",
+      "pos": 1,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/finn-iles",
+      "race": "UCI MOUNTAIN BIKE WORLD CUP – DHI/EDR Men Elite - Downhill Qualifying Round 1 FRA - Loudenvielle-Peyragudes",
+      "athlete": "Finn Iles",
+      "pos": 5,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/finn-iles",
+      "race": "UCI MOUNTAIN BIKE WORLD CUP – DHI/EDR Men Elite - Downhill FRA - Loudenvielle-Peyragudes",
+      "athlete": "Finn Iles",
+      "pos": 4,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/finn-iles",
+      "race": "UCI Mountain Bike Continental Series - Crankworx - Christchurch Downhill Men Elite - Downhill NZL - Christchurch",
+      "athlete": "Finn Iles",
+      "pos": 3,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/finn-iles",
+      "race": "UCI MOUNTAIN BIKE WORLD CUP – XCO/XCC/DHI Men Elite - Downhill Qualifying Round 1 SUI - Bike Kingdom - Lenzerheide",
+      "athlete": "Finn Iles",
+      "pos": 23,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/finn-iles",
+      "race": "UCI MOUNTAIN BIKE WORLD CUP – XCO/XCC/DHI Men Elite - Downhill Qualifying Round 1 FRA - Haute-Savoie",
+      "athlete": "Finn Iles",
+      "pos": 28,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/finn-iles",
+      "race": "UCI MOUNTAIN BIKE WORLD CUP – DHI/EDR Men Elite - Downhill FRA - Loudenvielle - Peyragudes",
+      "athlete": "Finn Iles",
+      "pos": 26,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/finn-iles",
+      "race": "UCI MOUNTAIN BIKE WORLD CUP – DHI/EDR Men Elite - Downhill Qualifying Round 1 FRA - Loudenvielle - Peyragudes",
+      "athlete": "Finn Iles",
+      "pos": 4,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/finn-iles",
+      "race": "UCI MOUNTAIN BIKE WORLD CUP – DHI/EDR Men Elite - Downhill Qualifying Round 1 POL - Enduro Trails - Bielsko-Biala - Szczyrk",
+      "athlete": "Finn Iles",
+      "pos": 28,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/finn-iles",
+      "race": "UCI MOUNTAIN BIKE WORLD CUP – DHI/EDR Men Elite - Downhill POL - Enduro Trails - Bielsko-Biala - Szczyrk",
+      "athlete": "Finn Iles",
+      "pos": 12,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/vida-lopez-de-san-roman",
+      "race": "UCI MOUNTAIN BIKE WORLD CUP – XCO/XCC Women Under 23 - Cross-country short circuit CZE - Nove Mesto Na Morave",
+      "athlete": "Vida Lopez de San Roman",
+      "pos": 19,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/vida-lopez-de-san-roman",
+      "race": "UCI MOUNTAIN BIKE WORLD CUP – XCO/XCC Women Under 23 - Cross-country Olympic CZE - Nove Mesto Na Morave",
+      "athlete": "Vida Lopez de San Roman",
+      "pos": 8,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/vida-lopez-de-san-roman",
+      "race": "MTB French Cup - XCO/XCC + UCI XCO Junior Series Women Under 23 - Cross-country Olympic FRA - Les Monts de Guéret",
+      "athlete": "Vida Lopez de San Roman",
+      "pos": 1,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/vida-lopez-de-san-roman",
+      "race": "MTB French Cup - XCO/XCC + UCI XCO Junior Series Women Elite - Cross-country short circuit FRA - Les Monts de Guéret",
+      "athlete": "Vida Lopez de San Roman",
+      "pos": 3,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/vida-lopez-de-san-roman",
+      "race": "Shimano Supercup Massi Sabiñánigo Women Elite - Cross-country Olympic ESP - Sabiñánigo",
+      "athlete": "Vida Lopez de San Roman",
+      "pos": 2,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/vida-lopez-de-san-roman",
+      "race": "UCI MOUNTAIN BIKE WORLD CUP – XCO/XCC/DHI Women Under 23 - Cross-country Olympic SUI - Bike Kingdom - Lenzerheide",
+      "athlete": "Vida Lopez de San Roman",
+      "pos": 1,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/vida-lopez-de-san-roman",
+      "race": "UCI MOUNTAIN BIKE WORLD CUP – XCO/XCC/DHI Women Under 23 - Cross-country short circuit SUI - Bike Kingdom - Lenzerheide",
+      "athlete": "Vida Lopez de San Roman",
+      "pos": 2,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/vida-lopez-de-san-roman",
+      "race": "UCI MOUNTAIN BIKE WORLD CUP – XCO/XCC/DHI Women Under 23 - Cross-country short circuit FRA - Haute-Savoie",
+      "athlete": "Vida Lopez de San Roman",
+      "pos": 1,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/vida-lopez-de-san-roman",
+      "race": "UCI MOUNTAIN BIKE WORLD CUP – XCO/XCC/DHI Women Under 23 - Cross-country Olympic FRA - Haute-Savoie",
+      "athlete": "Vida Lopez de San Roman",
+      "pos": 2,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/vida-lopez-de-san-roman",
+      "race": "UCI MOUNTAIN BIKE WORLD CUP – XCO/XCC/DHI Women Under 23 - Cross-country short circuit ITA - Val di Sole - Trentino",
+      "athlete": "Vida Lopez de San Roman",
+      "pos": 15,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/vida-lopez-de-san-roman",
+      "race": "UCI MOUNTAIN BIKE WORLD CUP – XCO/XCC/DHI Women Under 23 - Cross-country Olympic ITA - Val di Sole - Trentino",
+      "athlete": "Vida Lopez de San Roman",
+      "pos": 5,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/vida-lopez-de-san-roman",
+      "race": "UCI MOUNTAIN BIKE WORLD CUP – XCO/XCC Women Under 23 - Cross-country Olympic CZE - Nove Mesto Na Morave",
+      "athlete": "Vida Lopez de San Roman",
+      "pos": 4,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/vida-lopez-de-san-roman",
+      "race": "Shimano Supercup Massi Banyoles + UCI XCO Junior Series Women Under 23 - Cross-country Olympic ESP - Banyoles",
+      "athlete": "Vida Lopez de San Roman",
+      "pos": 7,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/vida-lopez-de-san-roman",
+      "race": "Internacionales Chelva + UCI XCO Junior Series Women Under 23 - Cross-country Olympic ESP - Chelva",
+      "athlete": "Vida Lopez de San Roman",
+      "pos": 1,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/line-burquier",
+      "race": "UCI MOUNTAIN BIKE WORLD CUP – XCO/XCC/DHI Women Elite - Cross-country Olympic SUI - Lenzerheide",
+      "athlete": "Line Burquier",
+      "pos": 26,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/line-burquier",
+      "race": "MTB French Cup - XCO Women Elite - Cross-country Olympic FRA - Saint-Quentin-en-Yvelines (78) / Colline d'Elancourt / Pauline Ferrand-Prévot Olympic Stadium",
+      "athlete": "Line Burquier",
+      "pos": 6,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/line-burquier",
+      "race": "MTB French Cup - XCO/XCC + UCI XCO Junior Series Women Elite - Cross-country short circuit FRA - Les Monts de Guéret",
+      "athlete": "Line Burquier",
+      "pos": 4,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/line-burquier",
+      "race": "MTB French Cup - XCO/XCC + UCI XCO Junior Series Women Elite - Cross-country Olympic FRA - Les Monts de Guéret",
+      "athlete": "Line Burquier",
+      "pos": 8,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/line-burquier",
+      "race": "Shimano Supercup Massi Sabiñánigo Women Elite - Cross-country Olympic ESP - Sabiñánigo",
+      "athlete": "Line Burquier",
+      "pos": 4,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/line-burquier",
+      "race": "UCI MOUNTAIN BIKE WORLD CUP – XCO/XCC/DHI Women Under 23 - Cross-country short circuit SUI - Bike Kingdom - Lenzerheide",
+      "athlete": "Line Burquier",
+      "pos": 15,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/line-burquier",
+      "race": "UCI MOUNTAIN BIKE WORLD CUP – XCO/XCC/DHI Women Under 23 - Cross-country Olympic SUI - Bike Kingdom - Lenzerheide",
+      "athlete": "Line Burquier",
+      "pos": 10,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/line-burquier",
+      "race": "UCI MOUNTAIN BIKE WORLD CUP – XCO/XCC/DHI Women Under 23 - Cross-country short circuit FRA - Haute-Savoie",
+      "athlete": "Line Burquier",
+      "pos": 23,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/line-burquier",
+      "race": "Swiss Bike Cup Basel + UCI XCO Junior Series Women Under 23 - Cross-country Olympic SUI - Basel",
+      "athlete": "Line Burquier",
+      "pos": 5,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/line-burquier",
+      "race": "UCI MOUNTAIN BIKE WORLD CUP – XCO/XCC/DHI Women Under 23 - Cross-country Olympic ITA - Val di Sole - Trentino",
+      "athlete": "Line Burquier",
+      "pos": 29,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/line-burquier",
+      "race": "MTB French Cup - XCO/XCC + UCI XCO Junior Series Women Under 23 - Cross-country Olympic FRA - Lons Le Saunier",
+      "athlete": "Line Burquier",
+      "pos": 4,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/line-burquier",
+      "race": "UCI MOUNTAIN BIKE WORLD CUP – XCO/XCC Women Under 23 - Cross-country Olympic CZE - Nove Mesto Na Morave",
+      "athlete": "Line Burquier",
+      "pos": 26,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/line-burquier",
+      "race": "MTB French Cup - XCO Women Elite - Cross-country Olympic FRA - Remiremont",
+      "athlete": "Line Burquier",
+      "pos": 11,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/line-burquier",
+      "race": "MTB French Cup - XCO/XCC + UCI XCO Junior Series Women Under 23 - Cross-country Olympic FRA - Guéret",
+      "athlete": "Line Burquier",
+      "pos": 4,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/line-burquier",
+      "race": "MTB French Cup - XCO - XCC - XCE + UCI XCO Junior Series Women Under 23 - Cross-country Olympic FRA - Marseille - Luminy",
+      "athlete": "Line Burquier",
+      "pos": 5,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/line-burquier",
+      "race": "Shimano Supercup Massi Banyoles + UCI XCO Junior Series Women Under 23 - Cross-country Olympic ESP - Banyoles",
+      "athlete": "Line Burquier",
+      "pos": 17,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/line-burquier",
+      "race": "Internacionales Chelva + UCI XCO Junior Series Women Under 23 - Cross-country Olympic ESP - Chelva",
+      "athlete": "Line Burquier",
+      "pos": 12,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/henry-coote",
+      "race": "Us Pro Cup + UCI XCO Junior Series Men Elite - Cross-country Olympic USA - Fayetteville",
+      "athlete": "Henry Coote",
+      "pos": 11,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/henry-coote",
+      "race": "Us Pro Cup Men Elite - Cross-country Olympic USA - Fayetteville",
+      "athlete": "Henry Coote",
+      "pos": 16,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/henry-coote",
+      "race": "International MTB Bundesliga - Heubacher Mountainbikefestival Bike the Rock + UCI XCO Junior Series Men Under 23 - Cross-country Olympic GER - Heubach",
+      "athlete": "Henry Coote",
+      "pos": 12,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/henry-coote",
+      "race": "American Continental Championships - XCO - XCC - XCE - E-XC - XCR Mixed Elite - Cross-country team relay CRC - Finca La Lucha",
+      "athlete": "Henry Coote",
+      "pos": 2,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/henry-coote",
+      "race": "American Continental Championships - XCO - XCC - XCE - E-XC - XCR Men Elite - Cross-country short circuit CRC - Finca La Lucha",
+      "athlete": "Henry Coote",
+      "pos": 20,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/henry-coote",
+      "race": "American Continental Championships - XCO - XCC - XCE - E-XC - XCR Men Under 23 - Cross-country Olympic CRC - Finca La Lucha",
+      "athlete": "Henry Coote",
+      "pos": 5,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/henry-coote",
+      "race": "Shimano Supercup Massi Banyoles + UCI XCO Junior Series Men Under 23 - Cross-country Olympic ESP - Banyoles",
+      "athlete": "Henry Coote",
+      "pos": 29,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/henry-coote",
+      "race": "Internacionales Chelva + UCI XCO Junior Series Men Under 23 - Cross-country Olympic ESP - Chelva",
+      "athlete": "Henry Coote",
+      "pos": 16,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/victor-koretzky",
+      "race": "Shimano Supercup Massi Banyoles + UCI XCO Junior Series Men Elite - Cross-country Olympic ESP - Banyoles",
+      "athlete": "Victor Koretzky",
+      "pos": 1,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/victor-koretzky",
+      "race": "UCI MOUNTAIN BIKE WORLD CUP – XCO/XCC/DHI Men Elite - Cross-country short circuit SUI - Bike Kingdom - Lenzerheide",
+      "athlete": "Victor Koretzky",
+      "pos": 1,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/victor-koretzky",
+      "race": "UCI MOUNTAIN BIKE WORLD CUP – XCO/XCC/DHI Men Elite - Cross-country short circuit ITA - Val di Sole - Trentino",
+      "athlete": "Victor Koretzky",
+      "pos": 2,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/victor-koretzky",
+      "race": "UCI MOUNTAIN BIKE WORLD CUP – XCO/XCC/DHI Men Elite - Cross-country Olympic ITA - Val di Sole - Trentino",
+      "athlete": "Victor Koretzky",
+      "pos": 27,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/victor-koretzky",
+      "race": "UCI MOUNTAIN BIKE WORLD CUP – XCO/XCC Men Elite - Cross-country short circuit CZE - Nove Mesto Na Morave",
+      "athlete": "Victor Koretzky",
+      "pos": 2,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/victor-koretzky",
+      "race": "UCI MOUNTAIN BIKE WORLD CUP – XCO/XCC Men Elite - Cross-country Olympic CZE - Nove Mesto Na Morave",
+      "athlete": "Victor Koretzky",
+      "pos": 4,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/victor-koretzky",
+      "race": "Shimano Supercup Massi Banyoles + UCI XCO Junior Series Men Elite - Cross-country Olympic ESP - Banyoles",
+      "athlete": "Victor Koretzky",
+      "pos": 3,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/haley-batten",
+      "race": "UCI MOUNTAIN BIKE WORLD CUP – XCO/XCC/DHI Women Elite - Cross-country short circuit SUI - Lenzerheide",
+      "athlete": "Haley Batten",
+      "pos": 13,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/haley-batten",
+      "race": "UCI MOUNTAIN BIKE WORLD CUP – XCO/XCC/DHI Women Elite - Cross-country Olympic SUI - Lenzerheide",
+      "athlete": "Haley Batten",
+      "pos": 10,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/haley-batten",
+      "race": "Us Pro Cup + UCI XCO Junior Series Women Elite - Cross-country short circuit USA - Fayetteville",
+      "athlete": "Haley Batten",
+      "pos": 1,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/haley-batten",
+      "race": "Us Pro Cup + UCI XCO Junior Series Women Elite - Cross-country Olympic USA - Fayetteville",
+      "athlete": "Haley Batten",
+      "pos": 2,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/haley-batten",
+      "race": "Us Pro Cup Women Elite - Cross-country Olympic USA - Fayetteville",
+      "athlete": "Haley Batten",
+      "pos": 1,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/haley-batten",
+      "race": "UCI Mountain Bike Continental Series - International Cup XCO Valdivia Bikefest - Round 2 Women Elite - Cross-country short circuit CHI - Valdivia",
+      "athlete": "Haley Batten",
+      "pos": 1,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/haley-batten",
+      "race": "UCI Mountain Bike Continental Series - International Cup XCO Valdivia Bikefest - Round 2 Women Elite - Cross-country Olympic CHI - Valdivia",
+      "athlete": "Haley Batten",
+      "pos": 1,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/haley-batten",
+      "race": "International Cup XCO Valdivia Bikefest-Round 1 Women Elite - Cross-country Olympic CHI - Valdivia",
+      "athlete": "Haley Batten",
+      "pos": 1,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/haley-batten",
+      "race": "International Cup XCO Valdivia Bikefest-Round 1 Women Elite - Cross-country short circuit CHI - Valdivia",
+      "athlete": "Haley Batten",
+      "pos": 1,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/haley-batten",
+      "race": "UCI MOUNTAIN BIKE WORLD CUP – XCO/XCC/DHI Women Elite - Cross-country Olympic FRA - Haute-Savoie",
+      "athlete": "Haley Batten",
+      "pos": 15,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/haley-batten",
+      "race": "Soho Bike Fest Women Elite - Cross-country Olympic USA - Midway, UT",
+      "athlete": "Haley Batten",
+      "pos": 11,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/haley-batten",
+      "race": "MTB French Cup - XCO/XCC + UCI XCO Junior Series Women Elite - Cross-country Olympic FRA - Lons Le Saunier",
+      "athlete": "Haley Batten",
+      "pos": 1,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/haley-batten",
+      "race": "UCI MOUNTAIN BIKE WORLD CUP – XCO/XCC Women Elite - Cross-country Olympic CZE - Nove Mesto Na Morave",
+      "athlete": "Haley Batten",
+      "pos": 7,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/haley-batten",
+      "race": "International MTB Bundesliga - Heubacher Mountainbikefestival Bike the Rock + UCI XCO Junior Series Women Elite - Cross-country Olympic GER - Heubach",
+      "athlete": "Haley Batten",
+      "pos": 7,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/laura-stigger",
+      "race": "UCI MOUNTAIN BIKE WORLD CUP – XCO/XCC/DHI Women Elite - Cross-country short circuit SUI - Lenzerheide",
+      "athlete": "Laura Stigger",
+      "pos": 7,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/laura-stigger",
+      "race": "UCI MOUNTAIN BIKE WORLD CUP – XCO/XCC/DHI Women Elite - Cross-country Olympic SUI - Lenzerheide",
+      "athlete": "Laura Stigger",
+      "pos": 5,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/laura-stigger",
+      "race": "UCI MOUNTAIN BIKE WORLD CUP – XCO/XCC Women Elite - Cross-country short circuit CZE - Nove Mesto Na Morave",
+      "athlete": "Laura Stigger",
+      "pos": 2,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/laura-stigger",
+      "race": "UCI MOUNTAIN BIKE WORLD CUP – XCO/XCC Women Elite - Cross-country Olympic CZE - Nove Mesto Na Morave",
+      "athlete": "Laura Stigger",
+      "pos": 1,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/laura-stigger",
+      "race": "UCI Mountain Bike Continental Series - Fullgaz Race Powered By Ghost - XCO Women Elite - Cross-country Olympic GER - Obergessertshausen",
+      "athlete": "Laura Stigger",
+      "pos": 2,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/laura-stigger",
+      "race": "Italia Bike Cup - Verona MTB Internationale Women Elite - Cross-country Olympic ITA - Verona",
+      "athlete": "Laura Stigger",
+      "pos": 1,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/laura-stigger",
+      "race": "UCI MOUNTAIN BIKE WORLD CUP – XCO/XCC/DHI Women Elite - Cross-country short circuit SUI - Bike Kingdom - Lenzerheide",
+      "athlete": "Laura Stigger",
+      "pos": 11,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/laura-stigger",
+      "race": "UCI MOUNTAIN BIKE WORLD CUP – XCO/XCC/DHI Women Elite - Cross-country Olympic SUI - Bike Kingdom - Lenzerheide",
+      "athlete": "Laura Stigger",
+      "pos": 5,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/laura-stigger",
+      "race": "UCI MOUNTAIN BIKE WORLD CUP – XCO/XCC/DHI Women Elite - Cross-country short circuit FRA - Haute-Savoie",
+      "athlete": "Laura Stigger",
+      "pos": 15,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/laura-stigger",
+      "race": "UCI MOUNTAIN BIKE WORLD CUP – XCO/XCC/DHI Women Elite - Cross-country Olympic FRA - Haute-Savoie",
+      "athlete": "Laura Stigger",
+      "pos": 7,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/laura-stigger",
+      "race": "Austrian National Championships - XCO - XCC Women Elite - Cross-country short circuit AUT - Wintersdor, Upper Austria",
+      "athlete": "Laura Stigger",
+      "pos": 1,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/laura-stigger",
+      "race": "Austrian National Championships - XCO - XCC Women Elite - Cross-country Olympic AUT - Wintersdor, Upper Austria",
+      "athlete": "Laura Stigger",
+      "pos": 1,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/laura-stigger",
+      "race": "UCI MOUNTAIN BIKE WORLD CUP – XCO/XCC/DHI Women Elite - Cross-country short circuit ITA - Val di Sole - Trentino",
+      "athlete": "Laura Stigger",
+      "pos": 3,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/laura-stigger",
+      "race": "UCI MOUNTAIN BIKE WORLD CUP – XCO/XCC/DHI Women Elite - Cross-country Olympic ITA - Val di Sole - Trentino",
+      "athlete": "Laura Stigger",
+      "pos": 3,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/laura-stigger",
+      "race": "UCI MOUNTAIN BIKE WORLD CUP – XCO/XCC Women Elite - Cross-country short circuit CZE - Nove Mesto Na Morave",
+      "athlete": "Laura Stigger",
+      "pos": 11,
+      "reason": "missing_or_non_2026_date"
+    },
+    {
+      "sourceUrl": "https://mtbdata.com/riders/laura-stigger",
+      "race": "UCI MOUNTAIN BIKE WORLD CUP – XCO/XCC Women Elite - Cross-country Olympic CZE - Nove Mesto Na Morave",
+      "athlete": "Laura Stigger",
+      "pos": 6,
+      "reason": "missing_or_non_2026_date"
+    }
+  ]
 }
