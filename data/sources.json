@@ -1,0 +1,133 @@
+{
+  "version": "2026-07-16",
+  "notes": "Source registry for automated result collection. The updater script reads this file and writes data/results.json.",
+  "sources": [
+    {
+      "id": "procyclingstats_road",
+      "name": "ProCyclingStats",
+      "disciplines": [
+        "Road"
+      ],
+      "url": "https://www.procyclingstats.com/",
+      "priority": 1,
+      "enabled": true,
+      "adapter": "generic_profile_page",
+      "notes": "Primary road source. Use rider profile URLs when supplied in roster.json."
+    },
+    {
+      "id": "uci_results",
+      "name": "UCI Results",
+      "disciplines": [
+        "Road",
+        "MTB",
+        "DH",
+        "Gravel",
+        "Triathlon"
+      ],
+      "url": "https://www.uci.org/",
+      "priority": 2,
+      "enabled": true,
+      "adapter": "source_index",
+      "notes": "Secondary validation source where UCI result pages are available."
+    },
+    {
+      "id": "mtbdata",
+      "name": "MTBData",
+      "disciplines": [
+        "MTB",
+        "DH"
+      ],
+      "url": "https://mtbdata.com/",
+      "priority": 1,
+      "enabled": true,
+      "adapter": "mtbdata",
+      "notes": "Added per Scott request. Covers MTB and DH result discovery."
+    },
+    {
+      "id": "whoop_uci_mtb_world_series",
+      "name": "WHOOP UCI Mountain Bike World Series",
+      "disciplines": [
+        "MTB",
+        "DH"
+      ],
+      "url": "https://ucimtbworldseries.com/",
+      "priority": 2,
+      "enabled": true,
+      "adapter": "source_index",
+      "notes": "World Cup / World Series source for XCO, XCC, DHI."
+    },
+    {
+      "id": "mtb_procyclingstats",
+      "name": "MTB ProCyclingStats",
+      "disciplines": [
+        "MTB",
+        "DH"
+      ],
+      "url": "https://mtb.procyclingstats.com/",
+      "priority": 3,
+      "enabled": true,
+      "adapter": "source_index",
+      "notes": "Fallback MTB/DH result source."
+    },
+    {
+      "id": "gravel_earth",
+      "name": "Gravel Earth Series",
+      "disciplines": [
+        "Gravel"
+      ],
+      "url": "https://gravelearthseries.com/",
+      "priority": 1,
+      "enabled": true,
+      "adapter": "source_index",
+      "notes": "Gravel source."
+    },
+    {
+      "id": "lifetime_grand_prix",
+      "name": "Life Time Grand Prix",
+      "disciplines": [
+        "Gravel"
+      ],
+      "url": "https://www.lifetimegrandprix.com/",
+      "priority": 2,
+      "enabled": true,
+      "adapter": "source_index",
+      "notes": "Gravel source."
+    },
+    {
+      "id": "world_triathlon",
+      "name": "World Triathlon",
+      "disciplines": [
+        "Triathlon"
+      ],
+      "url": "https://www.triathlon.org/",
+      "priority": 1,
+      "enabled": true,
+      "adapter": "source_index",
+      "notes": "World Triathlon result source."
+    },
+    {
+      "id": "pto_t100",
+      "name": "PTO / T100",
+      "disciplines": [
+        "Triathlon"
+      ],
+      "url": "https://t100triathlon.com/",
+      "priority": 2,
+      "enabled": true,
+      "adapter": "source_index",
+      "notes": "T100 triathlon result source."
+    },
+    {
+      "id": "ironman",
+      "name": "IRONMAN",
+      "disciplines": [
+        "Triathlon"
+      ],
+      "url": "https://www.ironman.com/",
+      "priority": 3,
+      "enabled": true,
+      "adapter": "source_index",
+      "notes": "IRONMAN result source."
+    }
+  ]
+}
