@@ -1,0 +1,13 @@
+{
+  "lastUpdated": "2026-07-16",
+  "notes": "Seed PCS event pages for road ingestion. Add more PCS race URLs here. The script discovers result/stage links from overview pages and parses explicit result pages only.",
+  "targets": [
+    {"name": "Tour de France 2026", "url": "https://www.procyclingstats.com/race/tour-de-france/2026"},
+    {"name": "Tour de France 2026 winners/results", "url": "https://www.procyclingstats.com/race/tour-de-france/2026/results"},
+    {"name": "Paris-Roubaix 2026", "url": "https://www.procyclingstats.com/race/paris-roubaix/2026/result/result/result"},
+    {"name": "Strade Bianche 2026", "url": "https://www.procyclingstats.com/race/strade-bianche/2026/result/result/result"},
+    {"name": "Milano-Sanremo 2026", "url": "https://www.procyclingstats.com/race/milano-sanremo/2026/result/result/result"},
+    {"name": "POREC Classic 2026", "url": "https://www.procyclingstats.com/race/porec-trophy/2026/result/result/result"},
+    {"name": "Tour des Alpes-Maritimes 2026", "url": "https://www.procyclingstats.com/race/tour-des-alpes-maritimes/2026/result/result/result"}
+  ]
+}
