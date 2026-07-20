@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-07-16",
+  "lastUpdated": "2026-07-20",
   "generatedBy": "scripts/update_results.py",
   "strategy": "Strict 2026 only; requires real date; PCS road from race/stage/result pages only",
   "resultCount": 175,
   "addedThisRun": 0,
-  "removedInvalidOrNon2026Rows": 283,
+  "removedInvalidOrNon2026Rows": 0,
   "results": [
     {
       "date": "2026-01-05",
