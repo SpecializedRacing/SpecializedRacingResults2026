@@ -1,6 +1,4057 @@
 {
-  "lastUpdated": "2026-07-21T19:35:55+00:00",
-  "note": "Rows rejected by strict 2026 validation. These should not be shown on the dashboard.",
-  "candidateCount": 0,
-  "candidates": []
+  "lastUpdated": "2026-07-21T21:36:16+00:00",
+  "note": "Rejected or skipped candidates from strict post-May-28 update.",
+  "latestInputDate": "2026-05-28",
+  "candidateCount": 525,
+  "rejectedExistingCount": 0,
+  "verifiedReviewCount": 2,
+  "pcsReviewCount": 523,
+  "candidates": [
+    {
+      "row": {
+        "date": "2026-06-25",
+        "race": "NC Switzerland WJ - ITT",
+        "athlete": "Anja Grossmann",
+        "pos": 1,
+        "src": "ProCyclingStats",
+        "sourceUrl": "",
+        "sourceId": "verified_post_may_28_seed"
+      },
+      "reason": "verified_addition_failed_validation"
+    },
+    {
+      "row": {
+        "date": "2026-06-27",
+        "race": "NC Switzerland WJ - Road Race",
+        "athlete": "Anja Grossmann",
+        "pos": 1,
+        "src": "ProCyclingStats",
+        "sourceUrl": "",
+        "sourceId": "verified_post_may_28_seed"
+      },
+      "reason": "verified_addition_failed_validation"
+    },
+    {
+      "sourceUrl": "https://www.procyclingstats.com/race/tour-de-france/2026/stage-1",
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/stage-1"
+      },
+      "reason": "no_roster_matches_found_on_pcs_page"
+    },
+    {
+      "sourceUrl": "https://www.procyclingstats.com/race/tour-de-france/2026/stage-2",
+      "target": {
+        "name": "Tour de France 2026 Stage 2",
+        "date": "2026-07-05",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/stage-2"
+      },
+      "reason": "no_roster_matches_found_on_pcs_page"
+    },
+    {
+      "sourceUrl": "https://www.procyclingstats.com/race/tour-de-france/2026/stage-3",
+      "target": {
+        "name": "Tour de France 2026 Stage 3",
+        "date": "2026-07-06",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/stage-3"
+      },
+      "reason": "no_roster_matches_found_on_pcs_page"
+    },
+    {
+      "sourceUrl": "https://www.procyclingstats.com/race/tour-de-france/2026/stage-4",
+      "target": {
+        "name": "Tour de France 2026 Stage 4",
+        "date": "2026-07-07",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/stage-4"
+      },
+      "reason": "no_roster_matches_found_on_pcs_page"
+    },
+    {
+      "sourceUrl": "https://www.procyclingstats.com/race/tour-de-france/2026/stage-5",
+      "target": {
+        "name": "Tour de France 2026 Stage 5",
+        "date": "2026-07-08",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/stage-5"
+      },
+      "reason": "no_roster_matches_found_on_pcs_page"
+    },
+    {
+      "sourceUrl": "https://www.procyclingstats.com/race/tour-de-france/2026/stage-6",
+      "target": {
+        "name": "Tour de France 2026 Stage 6",
+        "date": "2026-07-09",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/stage-6"
+      },
+      "reason": "no_roster_matches_found_on_pcs_page"
+    },
+    {
+      "sourceUrl": "https://www.procyclingstats.com/race/tour-de-france/2026/stage-7",
+      "target": {
+        "name": "Tour de France 2026 Stage 7",
+        "date": "2026-07-10",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/stage-7"
+      },
+      "reason": "no_roster_matches_found_on_pcs_page"
+    },
+    {
+      "sourceUrl": "https://www.procyclingstats.com/race/tour-de-france/2026/stage-8",
+      "target": {
+        "name": "Tour de France 2026 Stage 8",
+        "date": "2026-07-11",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/stage-8"
+      },
+      "reason": "no_roster_matches_found_on_pcs_page"
+    },
+    {
+      "sourceUrl": "https://www.procyclingstats.com/race/tour-de-france/2026/stage-9",
+      "target": {
+        "name": "Tour de France 2026 Stage 9",
+        "date": "2026-07-12",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/stage-9"
+      },
+      "reason": "no_roster_matches_found_on_pcs_page"
+    },
+    {
+      "sourceUrl": "https://www.procyclingstats.com/race/tour-de-france/2026/stage-10",
+      "target": {
+        "name": "Tour de France 2026 Stage 10",
+        "date": "2026-07-14",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/stage-10"
+      },
+      "reason": "no_roster_matches_found_on_pcs_page"
+    },
+    {
+      "sourceUrl": "https://www.procyclingstats.com/race/tour-de-france/2026/stage-11",
+      "target": {
+        "name": "Tour de France 2026 Stage 11",
+        "date": "2026-07-15",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/stage-11"
+      },
+      "reason": "no_roster_matches_found_on_pcs_page"
+    },
+    {
+      "sourceUrl": "https://www.procyclingstats.com/race/tour-de-france/2026/stage-12",
+      "target": {
+        "name": "Tour de France 2026 Stage 12",
+        "date": "2026-07-16",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/stage-12"
+      },
+      "reason": "no_roster_matches_found_on_pcs_page"
+    },
+    {
+      "sourceUrl": "https://www.procyclingstats.com/race/tour-de-france/2026/stage-13",
+      "target": {
+        "name": "Tour de France 2026 Stage 13",
+        "date": "2026-07-17",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/stage-13"
+      },
+      "reason": "no_roster_matches_found_on_pcs_page"
+    },
+    {
+      "sourceUrl": "https://www.procyclingstats.com/race/tour-de-france/2026/stage-14",
+      "target": {
+        "name": "Tour de France 2026 Stage 14",
+        "date": "2026-07-18",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/stage-14"
+      },
+      "reason": "no_roster_matches_found_on_pcs_page"
+    },
+    {
+      "sourceUrl": "https://www.procyclingstats.com/race/tour-de-france/2026/stage-15",
+      "target": {
+        "name": "Tour de France 2026 Stage 15",
+        "date": "2026-07-19",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/stage-15"
+      },
+      "reason": "no_roster_matches_found_on_pcs_page"
+    },
+    {
+      "sourceUrl": "https://www.procyclingstats.com/race/tour-de-france/2026/stage-16",
+      "target": {
+        "name": "Tour de France 2026 Stage 16",
+        "date": "2026-07-21",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/stage-16"
+      },
+      "reason": "no_roster_matches_found_on_pcs_page"
+    },
+    {
+      "sourceUrl": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/palmares",
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/palmares"
+      },
+      "reason": "no_roster_matches_found_on_pcs_page"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/route/stage-profiles"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-2/result/result"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2025/gc/result/result"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2027/gc/result/result"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-1/result"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/results"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/most-wins"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-1/info"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-1/info/complementary-results"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-1/info/penalties-fines"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-1/info/photos"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-1/info/profiles"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-1/info/time-table"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-1/live"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-1/game"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-1/statistics"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-1/more"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-1/more/report"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-1/more/embed-results"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-1/more/contribute-info"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-1/more/contribute-results"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-1/more/contribute-sites"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-1"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-1/result/result"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-1-gc"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-1-points"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-1-kom"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-1-youth"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-1-teams-gc"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/results/hottest-stages"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-1/live/startorder"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 2",
+        "date": "2026-07-05",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-3/result/result"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 2",
+        "date": "2026-07-05",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-2/result"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 2",
+        "date": "2026-07-05",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-2/info"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 2",
+        "date": "2026-07-05",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-2/info/complementary-results"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 2",
+        "date": "2026-07-05",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-2/info/penalties-fines"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 2",
+        "date": "2026-07-05",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-2/info/photos"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 2",
+        "date": "2026-07-05",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-2/info/profiles"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 2",
+        "date": "2026-07-05",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-2/info/time-table"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 2",
+        "date": "2026-07-05",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-2/live"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 2",
+        "date": "2026-07-05",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-2/game"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 2",
+        "date": "2026-07-05",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-2/statistics"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 2",
+        "date": "2026-07-05",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-2/more"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 2",
+        "date": "2026-07-05",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-2/more/report"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 2",
+        "date": "2026-07-05",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-2/more/embed-results"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 2",
+        "date": "2026-07-05",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-2/more/contribute-info"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 2",
+        "date": "2026-07-05",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-2/more/contribute-results"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 2",
+        "date": "2026-07-05",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-2/more/contribute-sites"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 2",
+        "date": "2026-07-05",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-2"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 2",
+        "date": "2026-07-05",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-2-gc"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 2",
+        "date": "2026-07-05",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-2-points"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 2",
+        "date": "2026-07-05",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-2-kom"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "sourceUrl": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-2-youth",
+      "target": {
+        "name": "Tour de France 2026 Stage 2",
+        "date": "2026-07-05",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-2-youth"
+      },
+      "reason": "no_roster_matches_found_on_pcs_page"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 2",
+        "date": "2026-07-05",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-2-teams-gc"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 3",
+        "date": "2026-07-06",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-4/result/result"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 3",
+        "date": "2026-07-06",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-3/result"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 3",
+        "date": "2026-07-06",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-3/info"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 3",
+        "date": "2026-07-06",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-3/info/complementary-results"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 3",
+        "date": "2026-07-06",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-3/info/penalties-fines"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 3",
+        "date": "2026-07-06",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-3/info/photos"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 3",
+        "date": "2026-07-06",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-3/info/profiles"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 3",
+        "date": "2026-07-06",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-3/info/time-table"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 3",
+        "date": "2026-07-06",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-3/live"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 3",
+        "date": "2026-07-06",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-3/game"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 3",
+        "date": "2026-07-06",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-3/statistics"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 3",
+        "date": "2026-07-06",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-3/more"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 3",
+        "date": "2026-07-06",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-3/more/report"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 3",
+        "date": "2026-07-06",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-3/more/embed-results"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 3",
+        "date": "2026-07-06",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-3/more/contribute-info"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 3",
+        "date": "2026-07-06",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-3/more/contribute-results"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 3",
+        "date": "2026-07-06",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-3/more/contribute-sites"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 3",
+        "date": "2026-07-06",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-3"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 3",
+        "date": "2026-07-06",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-3-gc"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 3",
+        "date": "2026-07-06",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-3-points"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 3",
+        "date": "2026-07-06",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-3-kom"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "sourceUrl": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-3-youth",
+      "target": {
+        "name": "Tour de France 2026 Stage 3",
+        "date": "2026-07-06",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-3-youth"
+      },
+      "reason": "no_roster_matches_found_on_pcs_page"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 3",
+        "date": "2026-07-06",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-3-teams-gc"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 4",
+        "date": "2026-07-07",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-5/result/result"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 4",
+        "date": "2026-07-07",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-4/result"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 4",
+        "date": "2026-07-07",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-4/info"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 4",
+        "date": "2026-07-07",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-4/info/complementary-results"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 4",
+        "date": "2026-07-07",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-4/info/penalties-fines"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 4",
+        "date": "2026-07-07",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-4/info/photos"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 4",
+        "date": "2026-07-07",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-4/info/profiles"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 4",
+        "date": "2026-07-07",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-4/info/time-table"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 4",
+        "date": "2026-07-07",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-4/live"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 4",
+        "date": "2026-07-07",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-4/game"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 4",
+        "date": "2026-07-07",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-4/statistics"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 4",
+        "date": "2026-07-07",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-4/more"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 4",
+        "date": "2026-07-07",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-4/more/report"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 4",
+        "date": "2026-07-07",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-4/more/embed-results"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 4",
+        "date": "2026-07-07",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-4/more/contribute-info"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 4",
+        "date": "2026-07-07",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-4/more/contribute-results"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 4",
+        "date": "2026-07-07",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-4/more/contribute-sites"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 4",
+        "date": "2026-07-07",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-4"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "sourceUrl": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-4-gc",
+      "target": {
+        "name": "Tour de France 2026 Stage 4",
+        "date": "2026-07-07",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-4-gc"
+      },
+      "reason": "no_roster_matches_found_on_pcs_page"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 4",
+        "date": "2026-07-07",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-4-points"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 4",
+        "date": "2026-07-07",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-4-kom"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 4",
+        "date": "2026-07-07",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-4-youth"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 4",
+        "date": "2026-07-07",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-4-teams-gc"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 5",
+        "date": "2026-07-08",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-6/result/result"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 5",
+        "date": "2026-07-08",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-5/result"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 5",
+        "date": "2026-07-08",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-5/info"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 5",
+        "date": "2026-07-08",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-5/info/complementary-results"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 5",
+        "date": "2026-07-08",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-5/info/penalties-fines"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 5",
+        "date": "2026-07-08",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-5/info/photos"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 5",
+        "date": "2026-07-08",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-5/info/profiles"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 5",
+        "date": "2026-07-08",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-5/info/time-table"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 5",
+        "date": "2026-07-08",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-5/live"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 5",
+        "date": "2026-07-08",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-5/game"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 5",
+        "date": "2026-07-08",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-5/statistics"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 5",
+        "date": "2026-07-08",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-5/more"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 5",
+        "date": "2026-07-08",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-5/more/report"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 5",
+        "date": "2026-07-08",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-5/more/embed-results"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 5",
+        "date": "2026-07-08",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-5/more/contribute-info"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 5",
+        "date": "2026-07-08",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-5/more/contribute-results"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 5",
+        "date": "2026-07-08",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-5/more/contribute-sites"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 5",
+        "date": "2026-07-08",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-5"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "sourceUrl": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-5-gc",
+      "target": {
+        "name": "Tour de France 2026 Stage 5",
+        "date": "2026-07-08",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-5-gc"
+      },
+      "reason": "no_roster_matches_found_on_pcs_page"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 5",
+        "date": "2026-07-08",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-5-points"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 5",
+        "date": "2026-07-08",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-5-kom"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "sourceUrl": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-5-youth",
+      "target": {
+        "name": "Tour de France 2026 Stage 5",
+        "date": "2026-07-08",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-5-youth"
+      },
+      "reason": "no_roster_matches_found_on_pcs_page"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 5",
+        "date": "2026-07-08",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-5-teams-gc"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 6",
+        "date": "2026-07-09",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-7/result/result"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 6",
+        "date": "2026-07-09",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-6/result"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 6",
+        "date": "2026-07-09",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-6/info"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 6",
+        "date": "2026-07-09",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-6/info/complementary-results"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 6",
+        "date": "2026-07-09",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-6/info/penalties-fines"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 6",
+        "date": "2026-07-09",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-6/info/photos"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 6",
+        "date": "2026-07-09",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-6/info/profiles"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 6",
+        "date": "2026-07-09",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-6/info/time-table"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 6",
+        "date": "2026-07-09",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-6/live"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 6",
+        "date": "2026-07-09",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-6/game"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 6",
+        "date": "2026-07-09",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-6/statistics"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 6",
+        "date": "2026-07-09",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-6/more"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 6",
+        "date": "2026-07-09",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-6/more/report"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 6",
+        "date": "2026-07-09",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-6/more/embed-results"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 6",
+        "date": "2026-07-09",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-6/more/contribute-info"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 6",
+        "date": "2026-07-09",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-6/more/contribute-results"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 6",
+        "date": "2026-07-09",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-6/more/contribute-sites"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "sourceUrl": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-6",
+      "target": {
+        "name": "Tour de France 2026 Stage 6",
+        "date": "2026-07-09",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-6"
+      },
+      "reason": "no_roster_matches_found_on_pcs_page"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 6",
+        "date": "2026-07-09",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-6-gc"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 6",
+        "date": "2026-07-09",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-6-points"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 6",
+        "date": "2026-07-09",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-6-kom"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 6",
+        "date": "2026-07-09",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-6-youth"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "sourceUrl": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-6-teams-gc",
+      "target": {
+        "name": "Tour de France 2026 Stage 6",
+        "date": "2026-07-09",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-6-teams-gc"
+      },
+      "reason": "no_roster_matches_found_on_pcs_page"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 7",
+        "date": "2026-07-10",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-8/result/result"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 7",
+        "date": "2026-07-10",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-7/result"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 7",
+        "date": "2026-07-10",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-7/info"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 7",
+        "date": "2026-07-10",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-7/info/complementary-results"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 7",
+        "date": "2026-07-10",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-7/info/penalties-fines"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 7",
+        "date": "2026-07-10",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-7/info/photos"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 7",
+        "date": "2026-07-10",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-7/info/profiles"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 7",
+        "date": "2026-07-10",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-7/info/time-table"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 7",
+        "date": "2026-07-10",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-7/live"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 7",
+        "date": "2026-07-10",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-7/game"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 7",
+        "date": "2026-07-10",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-7/statistics"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 7",
+        "date": "2026-07-10",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-7/more"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 7",
+        "date": "2026-07-10",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-7/more/report"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 7",
+        "date": "2026-07-10",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-7/more/embed-results"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 7",
+        "date": "2026-07-10",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-7/more/contribute-info"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 7",
+        "date": "2026-07-10",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-7/more/contribute-results"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 7",
+        "date": "2026-07-10",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-7/more/contribute-sites"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 7",
+        "date": "2026-07-10",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-7"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "sourceUrl": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-7-gc",
+      "target": {
+        "name": "Tour de France 2026 Stage 7",
+        "date": "2026-07-10",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-7-gc"
+      },
+      "reason": "no_roster_matches_found_on_pcs_page"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 7",
+        "date": "2026-07-10",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-7-points"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 7",
+        "date": "2026-07-10",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-7-kom"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 7",
+        "date": "2026-07-10",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-7-youth"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 7",
+        "date": "2026-07-10",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-7-teams-gc"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 8",
+        "date": "2026-07-11",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-9/result/result"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 8",
+        "date": "2026-07-11",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-8/result"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 8",
+        "date": "2026-07-11",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-8/info"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 8",
+        "date": "2026-07-11",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-8/info/complementary-results"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 8",
+        "date": "2026-07-11",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-8/info/penalties-fines"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 8",
+        "date": "2026-07-11",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-8/info/photos"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 8",
+        "date": "2026-07-11",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-8/info/profiles"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 8",
+        "date": "2026-07-11",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-8/info/time-table"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 8",
+        "date": "2026-07-11",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-8/live"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 8",
+        "date": "2026-07-11",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-8/game"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 8",
+        "date": "2026-07-11",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-8/statistics"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 8",
+        "date": "2026-07-11",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-8/more"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 8",
+        "date": "2026-07-11",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-8/more/report"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 8",
+        "date": "2026-07-11",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-8/more/embed-results"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 8",
+        "date": "2026-07-11",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-8/more/contribute-info"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 8",
+        "date": "2026-07-11",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-8/more/contribute-results"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 8",
+        "date": "2026-07-11",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-8/more/contribute-sites"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 8",
+        "date": "2026-07-11",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-8"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 8",
+        "date": "2026-07-11",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-8-gc"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 8",
+        "date": "2026-07-11",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-8-points"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 8",
+        "date": "2026-07-11",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-8-kom"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "sourceUrl": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-8-youth",
+      "target": {
+        "name": "Tour de France 2026 Stage 8",
+        "date": "2026-07-11",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-8-youth"
+      },
+      "reason": "no_roster_matches_found_on_pcs_page"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 8",
+        "date": "2026-07-11",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-8-teams-gc"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 9",
+        "date": "2026-07-12",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-10/result/result"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 9",
+        "date": "2026-07-12",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-9/result"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 9",
+        "date": "2026-07-12",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-9/info"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 9",
+        "date": "2026-07-12",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-9/info/complementary-results"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 9",
+        "date": "2026-07-12",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-9/info/penalties-fines"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 9",
+        "date": "2026-07-12",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-9/info/photos"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 9",
+        "date": "2026-07-12",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-9/info/profiles"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 9",
+        "date": "2026-07-12",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-9/info/time-table"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 9",
+        "date": "2026-07-12",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-9/live"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 9",
+        "date": "2026-07-12",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-9/game"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 9",
+        "date": "2026-07-12",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-9/statistics"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 9",
+        "date": "2026-07-12",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-9/more"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 9",
+        "date": "2026-07-12",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-9/more/report"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 9",
+        "date": "2026-07-12",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-9/more/embed-results"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 9",
+        "date": "2026-07-12",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-9/more/contribute-info"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 9",
+        "date": "2026-07-12",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-9/more/contribute-results"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 9",
+        "date": "2026-07-12",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-9/more/contribute-sites"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 9",
+        "date": "2026-07-12",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-9"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "sourceUrl": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-9-gc",
+      "target": {
+        "name": "Tour de France 2026 Stage 9",
+        "date": "2026-07-12",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-9-gc"
+      },
+      "reason": "no_roster_matches_found_on_pcs_page"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 9",
+        "date": "2026-07-12",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-9-points"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 9",
+        "date": "2026-07-12",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-9-kom"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 9",
+        "date": "2026-07-12",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-9-youth"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 9",
+        "date": "2026-07-12",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-9-teams-gc"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 10",
+        "date": "2026-07-14",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-11/result/result"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 10",
+        "date": "2026-07-14",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-10/result"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 10",
+        "date": "2026-07-14",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-10/info"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 10",
+        "date": "2026-07-14",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-10/info/complementary-results"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 10",
+        "date": "2026-07-14",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-10/info/penalties-fines"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 10",
+        "date": "2026-07-14",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-10/info/photos"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 10",
+        "date": "2026-07-14",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-10/info/profiles"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 10",
+        "date": "2026-07-14",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-10/info/time-table"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 10",
+        "date": "2026-07-14",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-10/live"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 10",
+        "date": "2026-07-14",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-10/game"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 10",
+        "date": "2026-07-14",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-10/statistics"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 10",
+        "date": "2026-07-14",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-10/more"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 10",
+        "date": "2026-07-14",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-10/more/report"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 10",
+        "date": "2026-07-14",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-10/more/embed-results"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 10",
+        "date": "2026-07-14",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-10/more/contribute-info"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 10",
+        "date": "2026-07-14",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-10/more/contribute-results"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 10",
+        "date": "2026-07-14",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-10/more/contribute-sites"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "sourceUrl": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-10",
+      "target": {
+        "name": "Tour de France 2026 Stage 10",
+        "date": "2026-07-14",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-10"
+      },
+      "reason": "no_roster_matches_found_on_pcs_page"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 10",
+        "date": "2026-07-14",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-10-gc"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 10",
+        "date": "2026-07-14",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-10-points"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 10",
+        "date": "2026-07-14",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-10-kom"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 10",
+        "date": "2026-07-14",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-10-youth"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 10",
+        "date": "2026-07-14",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-10-teams-gc"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 11",
+        "date": "2026-07-15",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-12/result/result"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 11",
+        "date": "2026-07-15",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-11/result"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 11",
+        "date": "2026-07-15",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-11/info"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 11",
+        "date": "2026-07-15",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-11/info/complementary-results"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 11",
+        "date": "2026-07-15",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-11/info/penalties-fines"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 11",
+        "date": "2026-07-15",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-11/info/photos"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 11",
+        "date": "2026-07-15",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-11/info/profiles"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 11",
+        "date": "2026-07-15",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-11/info/time-table"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 11",
+        "date": "2026-07-15",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-11/live"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 11",
+        "date": "2026-07-15",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-11/game"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 11",
+        "date": "2026-07-15",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-11/statistics"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 11",
+        "date": "2026-07-15",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-11/more"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 11",
+        "date": "2026-07-15",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-11/more/report"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 11",
+        "date": "2026-07-15",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-11/more/embed-results"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 11",
+        "date": "2026-07-15",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-11/more/contribute-info"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 11",
+        "date": "2026-07-15",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-11/more/contribute-results"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 11",
+        "date": "2026-07-15",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-11/more/contribute-sites"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 11",
+        "date": "2026-07-15",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-11"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 11",
+        "date": "2026-07-15",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-11-gc"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 11",
+        "date": "2026-07-15",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-11-points"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 11",
+        "date": "2026-07-15",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-11-kom"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "sourceUrl": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-11-youth",
+      "target": {
+        "name": "Tour de France 2026 Stage 11",
+        "date": "2026-07-15",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-11-youth"
+      },
+      "reason": "no_roster_matches_found_on_pcs_page"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 11",
+        "date": "2026-07-15",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-11-teams-gc"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 12",
+        "date": "2026-07-16",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-13/result/result"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 12",
+        "date": "2026-07-16",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-12/result"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 12",
+        "date": "2026-07-16",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-12/info"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 12",
+        "date": "2026-07-16",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-12/info/complementary-results"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 12",
+        "date": "2026-07-16",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-12/info/penalties-fines"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 12",
+        "date": "2026-07-16",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-12/info/photos"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 12",
+        "date": "2026-07-16",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-12/info/profiles"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 12",
+        "date": "2026-07-16",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-12/info/time-table"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 12",
+        "date": "2026-07-16",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-12/live"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 12",
+        "date": "2026-07-16",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-12/game"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 12",
+        "date": "2026-07-16",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-12/statistics"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 12",
+        "date": "2026-07-16",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-12/more"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 12",
+        "date": "2026-07-16",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-12/more/report"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 12",
+        "date": "2026-07-16",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-12/more/embed-results"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 12",
+        "date": "2026-07-16",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-12/more/contribute-info"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 12",
+        "date": "2026-07-16",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-12/more/contribute-results"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 12",
+        "date": "2026-07-16",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-12/more/contribute-sites"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 12",
+        "date": "2026-07-16",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-12"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 12",
+        "date": "2026-07-16",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-12-gc"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 12",
+        "date": "2026-07-16",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-12-points"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "sourceUrl": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-12-kom",
+      "target": {
+        "name": "Tour de France 2026 Stage 12",
+        "date": "2026-07-16",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-12-kom"
+      },
+      "reason": "no_roster_matches_found_on_pcs_page"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 12",
+        "date": "2026-07-16",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-12-youth"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 12",
+        "date": "2026-07-16",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-12-teams-gc"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 13",
+        "date": "2026-07-17",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-14/result/result"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 13",
+        "date": "2026-07-17",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-13/result"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 13",
+        "date": "2026-07-17",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-13/info"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 13",
+        "date": "2026-07-17",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-13/info/complementary-results"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 13",
+        "date": "2026-07-17",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-13/info/penalties-fines"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 13",
+        "date": "2026-07-17",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-13/info/photos"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 13",
+        "date": "2026-07-17",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-13/info/profiles"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 13",
+        "date": "2026-07-17",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-13/info/time-table"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 13",
+        "date": "2026-07-17",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-13/live"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 13",
+        "date": "2026-07-17",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-13/game"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 13",
+        "date": "2026-07-17",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-13/statistics"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 13",
+        "date": "2026-07-17",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-13/more"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 13",
+        "date": "2026-07-17",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-13/more/report"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 13",
+        "date": "2026-07-17",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-13/more/embed-results"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 13",
+        "date": "2026-07-17",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-13/more/contribute-info"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 13",
+        "date": "2026-07-17",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-13/more/contribute-results"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 13",
+        "date": "2026-07-17",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-13/more/contribute-sites"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 13",
+        "date": "2026-07-17",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-13"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 13",
+        "date": "2026-07-17",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-13-gc"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 13",
+        "date": "2026-07-17",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-13-points"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 13",
+        "date": "2026-07-17",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-13-kom"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "sourceUrl": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-13-youth",
+      "target": {
+        "name": "Tour de France 2026 Stage 13",
+        "date": "2026-07-17",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-13-youth"
+      },
+      "reason": "no_roster_matches_found_on_pcs_page"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 13",
+        "date": "2026-07-17",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-13-teams-gc"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 14",
+        "date": "2026-07-18",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-15/result/result"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 14",
+        "date": "2026-07-18",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-14/result"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 14",
+        "date": "2026-07-18",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-14/info"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 14",
+        "date": "2026-07-18",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-14/info/complementary-results"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 14",
+        "date": "2026-07-18",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-14/info/penalties-fines"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 14",
+        "date": "2026-07-18",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-14/info/photos"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 14",
+        "date": "2026-07-18",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-14/info/profiles"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 14",
+        "date": "2026-07-18",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-14/info/time-table"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 14",
+        "date": "2026-07-18",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-14/live"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 14",
+        "date": "2026-07-18",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-14/game"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 14",
+        "date": "2026-07-18",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-14/statistics"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 14",
+        "date": "2026-07-18",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-14/more"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 14",
+        "date": "2026-07-18",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-14/more/report"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 14",
+        "date": "2026-07-18",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-14/more/embed-results"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 14",
+        "date": "2026-07-18",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-14/more/contribute-info"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 14",
+        "date": "2026-07-18",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-14/more/contribute-results"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 14",
+        "date": "2026-07-18",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-14/more/contribute-sites"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 14",
+        "date": "2026-07-18",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-14"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "sourceUrl": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-14-gc",
+      "target": {
+        "name": "Tour de France 2026 Stage 14",
+        "date": "2026-07-18",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-14-gc"
+      },
+      "reason": "no_roster_matches_found_on_pcs_page"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 14",
+        "date": "2026-07-18",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-14-points"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "sourceUrl": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-14-kom",
+      "target": {
+        "name": "Tour de France 2026 Stage 14",
+        "date": "2026-07-18",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-14-kom"
+      },
+      "reason": "no_roster_matches_found_on_pcs_page"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 14",
+        "date": "2026-07-18",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-14-youth"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 14",
+        "date": "2026-07-18",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-14-teams-gc"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 15",
+        "date": "2026-07-19",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-16/result/result"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 15",
+        "date": "2026-07-19",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-15/result"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 15",
+        "date": "2026-07-19",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-15/info"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 15",
+        "date": "2026-07-19",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-15/info/complementary-results"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 15",
+        "date": "2026-07-19",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-15/info/penalties-fines"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 15",
+        "date": "2026-07-19",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-15/info/photos"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 15",
+        "date": "2026-07-19",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-15/info/profiles"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 15",
+        "date": "2026-07-19",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-15/info/time-table"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 15",
+        "date": "2026-07-19",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-15/live"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 15",
+        "date": "2026-07-19",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-15/game"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 15",
+        "date": "2026-07-19",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-15/statistics"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 15",
+        "date": "2026-07-19",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-15/more"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 15",
+        "date": "2026-07-19",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-15/more/report"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 15",
+        "date": "2026-07-19",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-15/more/embed-results"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 15",
+        "date": "2026-07-19",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-15/more/contribute-info"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 15",
+        "date": "2026-07-19",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-15/more/contribute-results"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 15",
+        "date": "2026-07-19",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-15/more/contribute-sites"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 15",
+        "date": "2026-07-19",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-15"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "sourceUrl": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-15-gc",
+      "target": {
+        "name": "Tour de France 2026 Stage 15",
+        "date": "2026-07-19",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-15-gc"
+      },
+      "reason": "no_roster_matches_found_on_pcs_page"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 15",
+        "date": "2026-07-19",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-15-points"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 15",
+        "date": "2026-07-19",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-15-kom"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 15",
+        "date": "2026-07-19",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-15-youth"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 15",
+        "date": "2026-07-19",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-15-teams-gc"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 16",
+        "date": "2026-07-21",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-17/result/result"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 16",
+        "date": "2026-07-21",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-16/result"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 16",
+        "date": "2026-07-21",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-16/info"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 16",
+        "date": "2026-07-21",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-16/info/complementary-results"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 16",
+        "date": "2026-07-21",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-16/info/penalties-fines"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 16",
+        "date": "2026-07-21",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-16/info/photos"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 16",
+        "date": "2026-07-21",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-16/info/profiles"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 16",
+        "date": "2026-07-21",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-16/info/time-table"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 16",
+        "date": "2026-07-21",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-16/live"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 16",
+        "date": "2026-07-21",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-16/game"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 16",
+        "date": "2026-07-21",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-16/statistics"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 16",
+        "date": "2026-07-21",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-16/more"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 16",
+        "date": "2026-07-21",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-16/more/report"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 16",
+        "date": "2026-07-21",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-16/more/embed-results"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 16",
+        "date": "2026-07-21",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-16/more/contribute-info"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 16",
+        "date": "2026-07-21",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-16/more/contribute-results"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 16",
+        "date": "2026-07-21",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-16/more/contribute-sites"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 16",
+        "date": "2026-07-21",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-16"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 16",
+        "date": "2026-07-21",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-16-gc"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 16",
+        "date": "2026-07-21",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-16-points"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 16",
+        "date": "2026-07-21",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-16-kom"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "sourceUrl": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-16-youth",
+      "target": {
+        "name": "Tour de France 2026 Stage 16",
+        "date": "2026-07-21",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-16-youth"
+      },
+      "reason": "no_roster_matches_found_on_pcs_page"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 16",
+        "date": "2026-07-21",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-16-teams-gc"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 16",
+        "date": "2026-07-21",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/stage-16/live/startorder"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/index.php"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "sourceUrl": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/races.php",
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/races.php"
+      },
+      "reason": "no_roster_matches_found_on_pcs_page"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/race/tour-de-france"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/race/giro-d-italia"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/race/vuelta-a-espana"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/race/world-championship"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/race/milano-sanremo"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/race/amstel-gold-race"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/race/tirreno-adriatico"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/race/liege-bastogne-liege"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/race/il-lombardia"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/race/la-fleche-wallone"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/race/paris-nice"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/race/paris-roubaix"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/race/volta-a-catalunya"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/race/dauphine"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/race/ronde-van-vlaanderen"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/race/gent-wevelgem"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/race/san-sebastian"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/teams.php"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/team/xds-astana-team-2026"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/team/uno-x-mobility-2026"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/team/uae-team-emirates-xrg-2026"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/team/team-visma-lease-a-bike-2026"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/team/team-picnic-postnl-2026"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/team/team-jayco-alula-2026"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/team/soudal-quick-step-2026"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/team/red-bull-bora-hansgrohe-2026"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/team/nsn-cycling-team-2026"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/team/alpecin-premier-tech-2026"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/team/movistar-team-2026"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/team/bahrain-victorious-2026"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/team/decathlon-cma-cgm-team-2026"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/team/ef-education-easypost-2026"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/team/groupama-fdj-united-2026"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/team/ineos-grenadiers-2026"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/team/lidl-trek-2026"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/team/lotto-intermarche-2026"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/rankings.php"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/statistics.php"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/statistics"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/statistics/riders"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/statistics/teams"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/statistics/grandtours"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "sourceUrl": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/game.php",
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/game.php"
+      },
+      "reason": "no_roster_matches_found_on_pcs_page"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/race/tour-de-france/2026"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/race/tour-de-france/2026/startlist"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/race/tour-de-france/results/palmares"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/race/tour-de-france/2026/startlist/top-competitors"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/race/tour-de-france/2026/startlist/top-gc-riders"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/race/tour-de-france/2026/route/stage-profiles"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/race/tour-de-france/2026/teams/top-teams"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/race/tour-de-france/2026/startlist/form"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/quiz.php"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/riders.php"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/riders"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/info/contact"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/info/countdown-to-5-billion-pageviews"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "sourceUrl": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/favorite500.php",
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/favorite500.php"
+      },
+      "reason": "no_roster_matches_found_on_pcs_page"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/info/about-us"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/info/sitemap"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/info/profile-score-explained"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/info/terminology-list"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/account.php"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/account/overview"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/account/follow-riders"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/race/tour-de-france/2025/statistics/start"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/race/tour-de-france/2027/statistics/start"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/race/tour-de-france/2026/statistics"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/race/tour-de-france/2026/startlist/startlist"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/race/tour-de-france/2026/startlist/startlist-quality"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/race/tour-de-france/2026/startlist/debutants"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/race/tour-de-france/2026/miscellaneous"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/race/tour-de-france/2026/teams"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/race/tour-de-france/2026/teams/teams"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/race/tour-de-france/2026/teams/dropouts"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/race/tour-de-france/2026/teams/prizemoney"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/race/tour-de-france/2026/nations"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/race/tour-de-france/2026/route"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/race/tour-de-france/2026/route/stages"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/race/tour-de-france/2026/route/hardest-stages"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/race/tour-de-france/2026/route/climbs"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/race/tour-de-france/2026/results"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/race/tour-de-france/2026/results/start"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/race/tour-de-france/2026/results/won-how"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/race/tour-de-france/2026/results/prizemoney-ranking"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/race/tour-de-france/2026/results/dropouts"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/race/tour-de-france/2026/results/fastest-stage"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/race/tour-de-france/2026/statistics/start"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/race/tour-de-france/2026/gc"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/race/tour-de-france/2026/gc/live"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/race/tour-de-france/2026/gc/game"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/rider/tadej-pogacar"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/rider/jonas-vingegaard"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/rider/isaac-del-toro"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/rider/remco-evenepoel"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/rider/tom-pidcock"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/rider/paul-seixas"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 1",
+        "date": "2026-07-04",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/results/rider/jasper-philipsen"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 2",
+        "date": "2026-07-05",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/race/tour-de-france/results/palmares"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 2",
+        "date": "2026-07-05",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/race/tour-de-france/2026/route/stage-profiles"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 2",
+        "date": "2026-07-05",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/race/tour-de-france/2026/results"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 2",
+        "date": "2026-07-05",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/race/tour-de-france/2026/results/start"
+      },
+      "reason": "fetch_failed"
+    },
+    {
+      "target": {
+        "name": "Tour de France 2026 Stage 2",
+        "date": "2026-07-05",
+        "url": "https://www.procyclingstats.com/race/tour-de-france/2026/race/tour-de-france/2026/race/tour-de-france/2026/results/won-how"
+      },
+      "reason": "fetch_failed"
+    }
+  ]
 }

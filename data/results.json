@@ -1,10 +1,10 @@
 {
   "lastUpdated": "2026-07-21",
   "generatedBy": "scripts/update_results.py",
-  "strategy": "Strict 2026 only; preserves verified seed; no PCS rider-profile scraping",
-  "resultCount": 69,
-  "addedThisRun": 0,
-  "rejectedInvalidRows": 0,
+  "strategy": "Strict 2026 only; latest-date incremental update; verified additions + targeted PCS event pages; no rider-profile scraping",
+  "latestInputDate": "2026-05-28",
+  "resultCount": 79,
+  "addedThisRun": 10,
   "results": [
     {
       "date": "2026-01-29",
@@ -99,7 +99,7 @@
     {
       "date": "2026-02-15",
       "race": "Santa Vall — Overall GC",
-      "athlete": "Mads Wurtz",
+      "athlete": "Mads Würtz Schmidt",
       "pos": 1,
       "src": "GravelEarth",
       "sourceUrl": "",
@@ -117,7 +117,7 @@
     {
       "date": "2026-02-15",
       "race": "Santa Vall — Overall GC",
-      "athlete": "Sofia Gomez Villafane",
+      "athlete": "Sofía Gómez Villafane",
       "pos": 1,
       "src": "GravelEarth",
       "sourceUrl": "",
@@ -135,7 +135,7 @@
     {
       "date": "2026-02-28",
       "race": "UCI Gravel WS — Castellón",
-      "athlete": "Sofia Gomez Villafane",
+      "athlete": "Sofía Gómez Villafane",
       "pos": 1,
       "src": "Cyclingnews",
       "sourceUrl": "",
@@ -153,7 +153,7 @@
     {
       "date": "2026-03-08",
       "race": "Valley of Tears",
-      "athlete": "Sofia Gomez Villafane",
+      "athlete": "Sofía Gómez Villafane",
       "pos": 1,
       "src": "Cyclingnews",
       "sourceUrl": "",
@@ -180,7 +180,7 @@
     {
       "date": "2026-03-14",
       "race": "The Mid South Gravel",
-      "athlete": "Sofia Gomez Villafane",
+      "athlete": "Sofía Gómez Villafane",
       "pos": 1,
       "src": "Cyclingnews",
       "sourceUrl": "",
@@ -261,7 +261,7 @@
     {
       "date": "2026-04-12",
       "race": "Gravel Desert (GES)",
-      "athlete": "Mads Wurtz",
+      "athlete": "Mads Würtz Schmidt",
       "pos": 1,
       "src": "Cyclingnews",
       "sourceUrl": "",
@@ -306,7 +306,7 @@
     {
       "date": "2026-04-17",
       "race": "Sea Otter Classic Gravel",
-      "athlete": "Sofia Gomez Villafane",
+      "athlete": "Sofía Gómez Villafane",
       "pos": 1,
       "src": "Cyclingnews",
       "sourceUrl": "",
@@ -360,7 +360,7 @@
     {
       "date": "2026-05-01",
       "race": "The Traka 360",
-      "athlete": "Mads Wurtz",
+      "athlete": "Mads Würtz Schmidt",
       "pos": 1,
       "src": "GranFondoDaily",
       "sourceUrl": "",
@@ -414,7 +414,7 @@
     {
       "date": "2026-05-02",
       "race": "The Traka 200",
-      "athlete": "Sofia Gomez Villafane",
+      "athlete": "Sofía Gómez Villafane",
       "pos": 1,
       "src": "Cyclingnews",
       "sourceUrl": "",
@@ -450,7 +450,7 @@
     {
       "date": "2026-05-02",
       "race": "UCI MTB WC Korea — DH Men",
-      "athlete": "Loic Bruni",
+      "athlete": "Loïc Bruni",
       "pos": 2,
       "src": "Pinkbike",
       "sourceUrl": "",
@@ -626,15 +626,105 @@
       "src": "Cyclingnews",
       "sourceUrl": "",
       "sourceId": "claude_verified_seed"
+    },
+    {
+      "date": "2026-06-25",
+      "race": "NC Luxembourg WE - ITT",
+      "athlete": "Marie Schreiber",
+      "pos": 2,
+      "src": "ProCyclingStats",
+      "sourceUrl": "",
+      "sourceId": "verified_post_may_28_seed"
+    },
+    {
+      "date": "2026-06-25",
+      "race": "NC Spain WE - ITT",
+      "athlete": "Mireia Benito Pellicer",
+      "pos": 1,
+      "src": "ProCyclingStats",
+      "sourceUrl": "",
+      "sourceId": "verified_post_may_28_seed"
+    },
+    {
+      "date": "2026-06-26",
+      "race": "NC Germany WE - ITT",
+      "athlete": "Franziska Koch",
+      "pos": 1,
+      "src": "ProCyclingStats",
+      "sourceUrl": "",
+      "sourceId": "verified_post_may_28_seed"
+    },
+    {
+      "date": "2026-06-27",
+      "race": "NC France WE - Road Race",
+      "athlete": "Célia Gery",
+      "pos": 1,
+      "src": "ProCyclingStats",
+      "sourceUrl": "",
+      "sourceId": "verified_post_may_28_seed"
+    },
+    {
+      "date": "2026-06-27",
+      "race": "NC Germany WE - Road Race",
+      "athlete": "Franziska Koch",
+      "pos": 1,
+      "src": "ProCyclingStats",
+      "sourceUrl": "",
+      "sourceId": "verified_post_may_28_seed"
+    },
+    {
+      "date": "2026-06-27",
+      "race": "NC Mauritius WE - ITT",
+      "athlete": "Kim Le Court-Pienaar",
+      "pos": 1,
+      "src": "ProCyclingStats",
+      "sourceUrl": "",
+      "sourceId": "verified_post_may_28_seed"
+    },
+    {
+      "date": "2026-06-28",
+      "race": "NC Germany MJ - Road Race",
+      "athlete": "Karl Herzog",
+      "pos": 1,
+      "src": "ProCyclingStats",
+      "sourceUrl": "",
+      "sourceId": "verified_post_may_28_seed"
+    },
+    {
+      "date": "2026-06-28",
+      "race": "NC Luxembourg WE - Road Race",
+      "athlete": "Marie Schreiber",
+      "pos": 1,
+      "src": "ProCyclingStats",
+      "sourceUrl": "",
+      "sourceId": "verified_post_may_28_seed"
+    },
+    {
+      "date": "2026-06-28",
+      "race": "NC Mauritius WE - Road Race",
+      "athlete": "Kim Le Court-Pienaar",
+      "pos": 1,
+      "src": "ProCyclingStats",
+      "sourceUrl": "",
+      "sourceId": "verified_post_may_28_seed"
+    },
+    {
+      "date": "2026-06-28",
+      "race": "NC Spain WE - Road Race",
+      "athlete": "Mireia Benito Pellicer",
+      "pos": 1,
+      "src": "ProCyclingStats",
+      "sourceUrl": "",
+      "sourceId": "verified_post_may_28_seed"
     }
   ],
   "schema": {
     "date": "YYYY-MM-DD; required; 2026 only",
-    "race": "valid race name, not classification/year/statistic",
-    "athlete": "name matching roster rider or alias",
+    "race": "valid race/stage name",
+    "athlete": "roster athlete or alias canonicalized to rider",
     "pos": "number 1-30",
     "src": "source label",
-    "sourceUrl": "optional evidence URL",
+    "sourceUrl": "evidence URL when available",
     "sourceId": "source identifier"
   }
 }
