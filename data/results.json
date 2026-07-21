@@ -1,9 +1,10 @@
 {
   "lastUpdated": "2026-07-21",
-  "generatedBy": "Claude verified seed extracted from racing_dashboard_2026 (7).html",
-  "strategy": "Strict 2026 verified-seed results plus future strict updater; all records require YYYY-MM-DD date and position 1-30",
+  "generatedBy": "scripts/update_results.py",
+  "strategy": "Strict 2026 only; preserves verified seed; no PCS rider-profile scraping",
   "resultCount": 69,
-  "addedThisRun": 69,
+  "addedThisRun": 0,
+  "rejectedInvalidRows": 0,
   "results": [
     {
       "date": "2026-01-29",
@@ -629,9 +630,9 @@
   ],
   "schema": {
     "date": "YYYY-MM-DD; required; 2026 only",
-    "race": "string",
-    "athlete": "roster athlete",
-    "pos": "1-30",
+    "race": "valid race name, not classification/year/statistic",
+    "athlete": "name matching roster rider or alias",
+    "pos": "number 1-30",
     "src": "source label",
     "sourceUrl": "optional evidence URL",
     "sourceId": "source identifier"
