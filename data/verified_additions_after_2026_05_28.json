@@ -1,0 +1,18 @@
+{
+  "lastUpdated": "2026-07-21",
+  "notes": "Verified additions after 2026-05-28 extracted from the prior working dashboard logic and known national championship additions. These records are strict 2026 only and must pass roster + date + position validation before publishing.",
+  "results": [
+    {"date":"2026-06-25","race":"NC Luxembourg WE - ITT","athlete":"Marie Schreiber","pos":2,"src":"ProCyclingStats","sourceUrl":"","sourceId":"verified_post_may_28_seed"},
+    {"date":"2026-06-25","race":"NC Spain WE - ITT","athlete":"Mireia Benito Pellicer","pos":1,"src":"ProCyclingStats","sourceUrl":"","sourceId":"verified_post_may_28_seed"},
+    {"date":"2026-06-25","race":"NC Switzerland WJ - ITT","athlete":"Anja Grossmann","pos":1,"src":"ProCyclingStats","sourceUrl":"","sourceId":"verified_post_may_28_seed"},
+    {"date":"2026-06-26","race":"NC Germany WE - ITT","athlete":"Franziska Koch","pos":1,"src":"ProCyclingStats","sourceUrl":"","sourceId":"verified_post_may_28_seed"},
+    {"date":"2026-06-27","race":"NC Switzerland WJ - Road Race","athlete":"Anja Grossmann","pos":1,"src":"ProCyclingStats","sourceUrl":"","sourceId":"verified_post_may_28_seed"},
+    {"date":"2026-06-27","race":"NC Mauritius WE - ITT","athlete":"Kim Le Court-Pienaar","pos":1,"src":"ProCyclingStats","sourceUrl":"","sourceId":"verified_post_may_28_seed"},
+    {"date":"2026-06-27","race":"NC Germany WE - Road Race","athlete":"Franziska Koch","pos":1,"src":"ProCyclingStats","sourceUrl":"","sourceId":"verified_post_may_28_seed"},
+    {"date":"2026-06-27","race":"NC France WE - Road Race","athlete":"Célia Gery","pos":1,"src":"ProCyclingStats","sourceUrl":"","sourceId":"verified_post_may_28_seed"},
+    {"date":"2026-06-28","race":"NC Luxembourg WE - Road Race","athlete":"Marie Schreiber","pos":1,"src":"ProCyclingStats","sourceUrl":"","sourceId":"verified_post_may_28_seed"},
+    {"date":"2026-06-28","race":"NC Mauritius WE - Road Race","athlete":"Kim Le Court-Pienaar","pos":1,"src":"ProCyclingStats","sourceUrl":"","sourceId":"verified_post_may_28_seed"},
+    {"date":"2026-06-28","race":"NC Germany MJ - Road Race","athlete":"Karl Herzog","pos":1,"src":"ProCyclingStats","sourceUrl":"","sourceId":"verified_post_may_28_seed"},
+    {"date":"2026-06-28","race":"NC Spain WE - Road Race","athlete":"Mireia Benito Pellicer","pos":1,"src":"ProCyclingStats","sourceUrl":"","sourceId":"verified_post_may_28_seed"}
+  ]
+}
