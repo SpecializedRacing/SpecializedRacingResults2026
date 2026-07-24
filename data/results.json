@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-07-21",
+  "lastUpdated": "2026-07-24",
   "generatedBy": "scripts/update_results.py",
-  "strategy": "Strict 2026 only; latest-date incremental update; verified additions + targeted PCS event pages; no rider-profile scraping",
-  "latestInputDate": "2026-05-28",
+  "strategy": "Auto per-athlete PCS rider-page scraping; no manual targets file required",
+  "latestInputDate": "2026-06-28",
   "resultCount": 79,
-  "addedThisRun": 10,
+  "addedThisRun": 0,
   "results": [
     {
       "date": "2026-01-29",
@@ -719,12 +719,12 @@
     }
   ],
   "schema": {
-    "date": "YYYY-MM-DD; required; 2026 only",
-    "race": "valid race/stage name",
-    "athlete": "roster athlete or alias canonicalized to rider",
-    "pos": "number 1-30",
+    "date": "YYYY-MM-DD; required; current season only",
+    "race": "race or stage name",
+    "athlete": "canonical roster name",
+    "pos": "integer 1–30",
     "src": "source label",
-    "sourceUrl": "evidence URL when available",
+    "sourceUrl": "URL of the page parsed",
     "sourceId": "source identifier"
   }
 }
