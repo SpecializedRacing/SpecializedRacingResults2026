@@ -2,21 +2,15 @@
 """
 Auto-discovery updater for Specialized Racing Dashboard.
 
-Instead of a manually maintained race list, this script scrapes each
-roster athlete's ProCyclingStats results page directly. No targets file
-needed — new races appear automatically as athletes compete.
-
-Strategy:
-  - For every athlete in roster.json, fetch their PCS /rider/<slug>/2026 page
-  - Parse all 2026 race results where pos <= MAX_POSITION
-  - Merge with any manually verified additions (verified_additions.json)
-  - Deduplicate and write back to data/results.json
+Scrapes each roster athlete's ProCyclingStats results page directly.
+Uses cloudscraper to bypass Cloudflare protection on PCS.
+No manual race targets file needed — results appear automatically.
 
 Required repo files:
   data/roster.json
   data/results.json
 Optional repo files:
-  data/verified_additions.json   (manual overrides / seed data)
+  data/verified_additions.json   (manual seed / overrides)
 
 Roster fields used:
   rider             canonical name
@@ -39,44 +33,36 @@ from pathlib import Path
 from typing import Dict, List, Optional, Tuple
 
 try:
-    import requests
+    import cloudscraper
     from bs4 import BeautifulSoup
 except Exception:
-    requests = None
+    cloudscraper = None
     BeautifulSoup = None
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
-ROSTER_FILE        = DATA / "roster.json"
-RESULTS_FILE       = DATA / "results.json"
-VERIFIED_FILE      = DATA / "verified_additions.json"   # optional
-REVIEW_FILE        = DATA / "discovered_results_review.json"
+ROSTER_FILE   = DATA / "roster.json"
+RESULTS_FILE  = DATA / "results.json"
+VERIFIED_FILE = DATA / "verified_additions.json"
+REVIEW_FILE   = DATA / "discovered_results_review.json"
 
-RESULT_YEAR    = os.getenv("RESULT_YEAR", "2026")
-MAX_POSITION   = int(os.getenv("MAX_POSITION", "30"))
-REQUEST_TIMEOUT = int(os.getenv("REQUEST_TIMEOUT", "25"))
-REQUEST_PAUSE  = float(os.getenv("REQUEST_PAUSE_SECONDS", "0.8"))
-# Set FORCE_RESCRAPE=1 to ignore last_date and re-pull the full season
-FORCE_RESCRAPE = os.getenv("FORCE_RESCRAPE", "0") == "1"
+RESULT_YEAR     = os.getenv("RESULT_YEAR", "2026")
+MAX_POSITION    = int(os.getenv("MAX_POSITION", "30"))
+REQUEST_TIMEOUT = int(os.getenv("REQUEST_TIMEOUT", "30"))
+REQUEST_PAUSE   = float(os.getenv("REQUEST_PAUSE_SECONDS", "1.0"))
+FORCE_RESCRAPE  = os.getenv("FORCE_RESCRAPE", "0") == "1"
 
 PCS_BASE = "https://www.procyclingstats.com"
-
-HEADERS = {
-    "User-Agent": "SpecializedRacingDashboard/7.0 (+GitHub Actions)",
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-    "Accept-Language": "en-US,en;q=0.9",
-}
 
 BAD_RACE_TERMS = [
     "general classification", "points classification", "mountains classification",
     "youth classification", "teams classification", "kom classification",
     "statistics", "ranking", "rankings", "pcs ranking", "uci ranking",
-    "startlist", "history", "overview", "team ranking", "palmares",
-    "profile",
+    "startlist", "history", "overview", "team ranking", "palmares", "profile",
 ]
 YEAR_ONLY_RE = re.compile(r"^20\d{2}$")
 DATE_FULL_RE  = re.compile(r"^\d{4}-\d{2}-\d{2}$")
-PCS_DATE_RE   = re.compile(r"^(\d{2})\.(\d{2})$")   # DD.MM on PCS pages
+PCS_DATE_RE   = re.compile(r"^(\d{2})\.(\d{2})$")
 POS_RE        = re.compile(r"^(\d{1,3})(?:st|nd|rd|th)?$", re.I)
 
 
@@ -93,7 +79,6 @@ def norm(value: str) -> str:
 
 
 def pcs_slug(name: str) -> str:
-    """Derive a PCS URL slug from a rider name."""
     s = unicodedata.normalize("NFD", str(name or ""))
     s = "".join(ch for ch in s if unicodedata.category(ch) != "Mn")
     s = s.lower().strip()
@@ -216,16 +201,32 @@ def latest_date(results: List[dict]) -> str:
 
 
 # ---------------------------------------------------------------------------
-# HTTP
+# HTTP — cloudscraper bypasses Cloudflare protection on PCS
 # ---------------------------------------------------------------------------
 
+_SCRAPER = None
+
+def get_scraper():
+    global _SCRAPER
+    if _SCRAPER is None and cloudscraper is not None:
+        _SCRAPER = cloudscraper.create_scraper(
+            browser={"browser": "chrome", "platform": "windows", "mobile": False}
+        )
+    return _SCRAPER
+
+
 def fetch(url: str) -> Optional[str]:
-    if requests is None:
+    if cloudscraper is None:
         return None
+    scraper = get_scraper()
     try:
-        resp = requests.get(url, headers=HEADERS, timeout=REQUEST_TIMEOUT)
-        return resp.text if resp.status_code == 200 else None
-    except Exception:
+        resp = scraper.get(url, timeout=REQUEST_TIMEOUT)
+        if resp.status_code == 200:
+            return resp.text
+        print(f"    HTTP {resp.status_code} for {url}", flush=True)
+        return None
+    except Exception as exc:
+        print(f"    Exception fetching {url}: {exc}", flush=True)
         return None
     finally:
         if REQUEST_PAUSE:
@@ -240,15 +241,15 @@ def scrape_pcs_rider(athlete: dict, last_date: str) -> Tuple[List[dict], List[di
     """
     Fetch /rider/<slug>/YEAR and parse all result rows.
 
-    PCS rider result pages have a table where each row represents one race.
+    PCS rider result pages have a table where each row = one race.
     Typical columns: Date (DD.MM) | Race | Category | km | Pos | UCI pts | PCS pts
     """
     if BeautifulSoup is None:
         return [], []
 
-    name   = athlete.get("rider", "")
-    slug   = athlete.get("pcsSlug") or pcs_slug(name)
-    url    = f"{PCS_BASE}/rider/{slug}/{RESULT_YEAR}"
+    name  = athlete.get("rider", "")
+    slug  = athlete.get("pcsSlug") or pcs_slug(name)
+    url   = f"{PCS_BASE}/rider/{slug}/{RESULT_YEAR}"
 
     html = fetch(url)
     if not html:
@@ -258,8 +259,6 @@ def scrape_pcs_rider(athlete: dict, last_date: str) -> Tuple[List[dict], List[di
     records: List[dict] = []
     review:  List[dict] = []
 
-    # PCS renders results in <ul class="rdrResults"> or a <table>.
-    # We walk every <tr> and also every <li> to cover both layouts.
     rows = soup.find_all("tr") + soup.find_all("li", class_=re.compile(r"rdrRes", re.I))
 
     for row in rows:
@@ -271,7 +270,6 @@ def scrape_pcs_rider(athlete: dict, last_date: str) -> Tuple[List[dict], List[di
         pos_val   = None
         race_name = None
 
-        # --- date: look for DD.MM pattern ---
         for cell in cells:
             m = PCS_DATE_RE.match(cell.strip())
             if m:
@@ -284,7 +282,6 @@ def scrape_pcs_rider(athlete: dict, last_date: str) -> Tuple[List[dict], List[di
         if not FORCE_RESCRAPE and date_str <= last_date:
             continue
 
-        # --- position: scan all cells ---
         for cell in cells:
             pos_val = parse_pos(cell.strip())
             if pos_val:
@@ -293,7 +290,6 @@ def scrape_pcs_rider(athlete: dict, last_date: str) -> Tuple[List[dict], List[di
         if not pos_val:
             continue
 
-        # --- race name: prefer text from a /race/ anchor ---
         for anchor in row.find_all("a", href=True):
             href = anchor.get("href", "")
             text = clean_race_name(anchor.get_text(" ", strip=True))
@@ -301,7 +297,6 @@ def scrape_pcs_rider(athlete: dict, last_date: str) -> Tuple[List[dict], List[di
                 race_name = text
                 break
 
-        # fallback: any cell that looks like a race name
         if not race_name:
             for cell in cells:
                 cell = cell.strip()
@@ -332,16 +327,14 @@ def scrape_pcs_rider(athlete: dict, last_date: str) -> Tuple[List[dict], List[di
 
 
 def collect_all_results(roster_payload: dict, last_date: str) -> Tuple[List[dict], List[dict]]:
-    """Scrape PCS for every athlete in the roster."""
     all_records: List[dict] = []
     all_review:  List[dict] = []
-
     athletes = roster_payload.get("athletes", [])
-    print(f"Scraping PCS for {len(athletes)} athletes …")
+    print(f"Scraping PCS for {len(athletes)} athletes ...")
 
     for i, athlete in enumerate(athletes, 1):
         name = athlete.get("rider", "")
-        print(f"  [{i}/{len(athletes)}] {name}", end=" … ", flush=True)
+        print(f"  [{i}/{len(athletes)}] {name}", end=" ... ", flush=True)
         records, review = scrape_pcs_rider(athlete, last_date)
         print(f"{len(records)} new result(s)")
         all_records.extend(records)
@@ -351,7 +344,7 @@ def collect_all_results(roster_payload: dict, last_date: str) -> Tuple[List[dict
 
 
 # ---------------------------------------------------------------------------
-# Verified manual additions (optional fallback / override file)
+# Verified manual additions (optional)
 # ---------------------------------------------------------------------------
 
 def load_verified(idx: Dict[str, dict], last_date: str) -> Tuple[List[dict], List[dict]]:
@@ -388,11 +381,9 @@ def main():
     print(f"Clean existing results : {len(clean)}")
     print(f"Scraping from          : {last} onwards (FORCE_RESCRAPE={FORCE_RESCRAPE})")
 
-    # --- gather new results ---
     pcs_records,      pcs_review      = collect_all_results(roster_payload, last)
     verified_records, verified_review = load_verified(idx, last)
 
-    # --- merge & deduplicate ---
     combined = list(clean)
     seen     = {result_key(r) for r in combined}
     added    = []
@@ -408,41 +399,38 @@ def main():
 
     combined.sort(key=lambda r: (r.get("date", ""), r.get("race", ""), r.get("athlete", "")))
 
-    # --- write results ---
     save_json(RESULTS_FILE, {
-        "lastUpdated":  datetime.now(timezone.utc).date().isoformat(),
-        "generatedBy":  "scripts/update_results.py",
-        "strategy":     "Auto per-athlete PCS rider-page scraping; no manual targets file required",
+        "lastUpdated":     datetime.now(timezone.utc).date().isoformat(),
+        "generatedBy":     "scripts/update_results.py",
+        "strategy":        "Auto per-athlete PCS rider-page scraping via cloudscraper",
         "latestInputDate": last,
-        "resultCount":  len(combined),
-        "addedThisRun": len(added),
-        "results":      combined,
+        "resultCount":     len(combined),
+        "addedThisRun":    len(added),
+        "results":         combined,
         "schema": {
             "date":      "YYYY-MM-DD; required; current season only",
             "race":      "race or stage name",
             "athlete":   "canonical roster name",
-            "pos":       f"integer 1–{MAX_POSITION}",
+            "pos":       f"integer 1-{MAX_POSITION}",
             "src":       "source label",
             "sourceUrl": "URL of the page parsed",
             "sourceId":  "source identifier",
         },
     })
 
-    # --- write review log ---
-    all_review = pcs_review + verified_review + rejected_existing[:100]
     save_json(REVIEW_FILE, {
-        "lastUpdated":      datetime.now(timezone.utc).isoformat(timespec="seconds"),
-        "note":             "Riders/rows that were skipped or failed validation this run.",
-        "latestInputDate":  last,
-        "addedThisRun":     len(added),
-        "skippedCount":     len(all_review),
-        "skipped":          all_review[:500],
+        "lastUpdated":    datetime.now(timezone.utc).isoformat(timespec="seconds"),
+        "note":           "Riders/rows skipped or failed validation this run.",
+        "latestInputDate": last,
+        "addedThisRun":   len(added),
+        "skippedCount":   len(pcs_review) + len(verified_review),
+        "skipped":        (pcs_review + verified_review)[:500],
     })
 
-    print(f"\nPCS scraped (before dedupe) : {len(pcs_records)}")
-    print(f"Verified additions          : {len(verified_records)}")
+    print(f"\nPCS scraped (before dedupe)  : {len(pcs_records)}")
+    print(f"Verified additions           : {len(verified_records)}")
     print(f"Added this run (after dedupe): {len(added)}")
-    print(f"Total results               : {len(combined)}")
+    print(f"Total results                : {len(combined)}")
 
 
 if __name__ == "__main__":
