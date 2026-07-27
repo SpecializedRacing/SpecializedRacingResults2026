@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-07-24T23:07:02+00:00",
-  "note": "Riders/rows that were skipped or failed validation this run.",
+  "lastUpdated": "2026-07-27T15:40:28+00:00",
+  "note": "Riders/rows skipped or failed validation this run.",
   "latestInputDate": "2026-06-28",
   "addedThisRun": 0,
   "skippedCount": 218,

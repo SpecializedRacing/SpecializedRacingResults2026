@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-07-24",
+  "lastUpdated": "2026-07-27",
   "generatedBy": "scripts/update_results.py",
-  "strategy": "Auto per-athlete PCS rider-page scraping; no manual targets file required",
+  "strategy": "Auto per-athlete PCS rider-page scraping via cloudscraper",
   "latestInputDate": "2026-06-28",
   "resultCount": 79,
   "addedThisRun": 0,
@@ -722,7 +722,7 @@
     "date": "YYYY-MM-DD; required; current season only",
     "race": "race or stage name",
     "athlete": "canonical roster name",
-    "pos": "integer 1–30",
+    "pos": "integer 1-30",
     "src": "source label",
     "sourceUrl": "URL of the page parsed",
     "sourceId": "source identifier"
