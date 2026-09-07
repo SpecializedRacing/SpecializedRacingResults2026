@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-08-31T13:08:09+00:00",
+  "lastUpdated": "2026-09-07T13:08:08+00:00",
   "note": "Riders/rows skipped or failed validation this run.",
-  "latestInputDate": "2026-08-24",
-  "addedThisRun": 63,
-  "skippedCount": 172,
+  "latestInputDate": "2026-08-30",
+  "addedThisRun": 116,
+  "skippedCount": 171,
   "skipped": [
     {
       "rider": "Dylan van Baarle",
@@ -16,13 +16,13 @@
       "reason": "no_results_parsed"
     },
     {
-      "rider": "Fabio Van Den Bossche",
-      "url": "https://www.procyclingstats.com/rider/fabio-van-den-bossche/2026",
+      "rider": "Steff Cras",
+      "url": "https://www.procyclingstats.com/rider/steff-cras/2026",
       "reason": "no_results_parsed"
     },
     {
-      "rider": "Steff Cras",
-      "url": "https://www.procyclingstats.com/rider/steff-cras/2026",
+      "rider": "Alberto Dainese",
+      "url": "https://www.procyclingstats.com/rider/alberto-dainese/2026",
       "reason": "no_results_parsed"
     },
     {
@@ -31,18 +31,23 @@
       "reason": "no_results_parsed"
     },
     {
+      "rider": "Gianmarco Garofoli",
+      "url": "https://www.procyclingstats.com/rider/gianmarco-garofoli/2026",
+      "reason": "no_results_parsed"
+    },
+    {
       "rider": "Gil Gelders",
       "url": "https://www.procyclingstats.com/rider/gil-gelders/2026",
       "reason": "no_results_parsed"
     },
     {
-      "rider": "Ethan Hayter",
-      "url": "https://www.procyclingstats.com/rider/ethan-hayter/2026",
+      "rider": "Dries Van Gestel",
+      "url": "https://www.procyclingstats.com/rider/dries-van-gestel/2026",
       "reason": "no_results_parsed"
     },
     {
-      "rider": "Yves Lampaert",
-      "url": "https://www.procyclingstats.com/rider/yves-lampaert/2026",
+      "rider": "Ethan Hayter",
+      "url": "https://www.procyclingstats.com/rider/ethan-hayter/2026",
       "reason": "no_results_parsed"
     },
     {
@@ -66,13 +71,18 @@
       "reason": "no_results_parsed"
     },
     {
-      "rider": "Tim Merlier",
-      "url": "https://www.procyclingstats.com/rider/tim-merlier/2026",
+      "rider": "Andrea Raccagni Noviero",
+      "url": "https://www.procyclingstats.com/rider/andrea-raccagni-noviero/2026",
       "reason": "no_results_parsed"
     },
     {
       "rider": "Casper Pedersen",
       "url": "https://www.procyclingstats.com/rider/casper-pedersen/2026",
+      "reason": "no_results_parsed"
+    },
+    {
+      "rider": "Pepijn Reinderink",
+      "url": "https://www.procyclingstats.com/rider/pepijn-reinderink/2026",
       "reason": "no_results_parsed"
     },
     {
@@ -91,18 +101,18 @@
       "reason": "no_results_parsed"
     },
     {
-      "rider": "Mauri Vansevenant",
-      "url": "https://www.procyclingstats.com/rider/mauri-vansevenant/2026",
+      "rider": "Warre Vangheluwe",
+      "url": "https://www.procyclingstats.com/rider/warre-vangheluwe/2026",
+      "reason": "no_results_parsed"
+    },
+    {
+      "rider": "Louis Vervaeke",
+      "url": "https://www.procyclingstats.com/rider/louis-vervaeke/2026",
       "reason": "no_results_parsed"
     },
     {
       "rider": "Jonathan Vervenne",
       "url": "https://www.procyclingstats.com/rider/jonathan-vervenne/2026",
-      "reason": "no_results_parsed"
-    },
-    {
-      "rider": "Ilan Van Wilder",
-      "url": "https://www.procyclingstats.com/rider/ilan-van-wilder/2026",
       "reason": "no_results_parsed"
     },
     {
@@ -131,13 +141,28 @@
       "reason": "no_results_parsed"
     },
     {
+      "rider": "Haimar Etxeberria",
+      "url": "https://www.procyclingstats.com/rider/haimar-etxeberria/2026",
+      "reason": "no_results_parsed"
+    },
+    {
       "rider": "Remco Evenepoel",
       "url": "https://www.procyclingstats.com/rider/remco-evenepoel/2026",
       "reason": "no_results_parsed"
     },
     {
+      "rider": "Maxim Van Gils",
+      "url": "https://www.procyclingstats.com/rider/maxim-van-gils/2026",
+      "reason": "no_results_parsed"
+    },
+    {
       "rider": "Alexander Hajek",
       "url": "https://www.procyclingstats.com/rider/alexander-hajek/2026",
+      "reason": "no_results_parsed"
+    },
+    {
+      "rider": "Emil Herzog",
+      "url": "https://www.procyclingstats.com/rider/emil-herzog/2026",
       "reason": "no_results_parsed"
     },
     {
@@ -148,11 +173,6 @@
     {
       "rider": "Florian Lipowitz",
       "url": "https://www.procyclingstats.com/rider/florian-lipowitz/2026",
-      "reason": "no_results_parsed"
-    },
-    {
-      "rider": "Arne Marit",
-      "url": "https://www.procyclingstats.com/rider/arne-marit/2026",
       "reason": "no_results_parsed"
     },
     {
@@ -171,8 +191,8 @@
       "reason": "no_results_parsed"
     },
     {
-      "rider": "Danny van Poppel",
-      "url": "https://www.procyclingstats.com/rider/danny-van-poppel/2026",
+      "rider": "Laurence Pithie",
+      "url": "https://www.procyclingstats.com/rider/laurence-pithie/2026",
       "reason": "no_results_parsed"
     },
     {
@@ -183,11 +203,6 @@
     {
       "rider": "Jan Tratnik",
       "url": "https://www.procyclingstats.com/rider/jan-tratnik/2026",
-      "reason": "no_results_parsed"
-    },
-    {
-      "rider": "Luke Tuckwell",
-      "url": "https://www.procyclingstats.com/rider/luke-tuckwell/2026",
       "reason": "no_results_parsed"
     },
     {
@@ -206,8 +221,18 @@
       "reason": "no_results_parsed"
     },
     {
-      "rider": "Ben Zwiehoff",
-      "url": "https://www.procyclingstats.com/rider/ben-zwiehoff/2026",
+      "rider": "Fauve Bastiaenssen",
+      "url": "https://www.procyclingstats.com/rider/fauve-bastiaenssen/2026",
+      "reason": "no_results_parsed"
+    },
+    {
+      "rider": "Letizia Borghesi",
+      "url": "https://www.procyclingstats.com/rider/letizia-borghesi/2026",
+      "reason": "no_results_parsed"
+    },
+    {
+      "rider": "Shari Bossuyt",
+      "url": "https://www.procyclingstats.com/rider/shari-bossuyt/2026",
       "reason": "no_results_parsed"
     },
     {
@@ -218,6 +243,11 @@
     {
       "rider": "Kim Le Court-Pienaar",
       "url": "https://www.procyclingstats.com/rider/kim-le-court-pienaar/2026",
+      "reason": "no_results_parsed"
+    },
+    {
+      "rider": "Justine Ghekiere",
+      "url": "https://www.procyclingstats.com/rider/justine-ghekiere/2026",
       "reason": "no_results_parsed"
     },
     {
@@ -276,11 +306,6 @@
       "reason": "no_results_parsed"
     },
     {
-      "rider": "Eva van Agt",
-      "url": "https://www.procyclingstats.com/rider/eva-van-agt/2026",
-      "reason": "no_results_parsed"
-    },
-    {
       "rider": "Juliette Berthet",
       "url": "https://www.procyclingstats.com/rider/juliette-berthet/2026",
       "reason": "no_results_parsed"
@@ -311,13 +336,18 @@
       "reason": "no_results_parsed"
     },
     {
-      "rider": "Amber Kraak",
-      "url": "https://www.procyclingstats.com/rider/amber-kraak/2026",
+      "rider": "Franziska Koch",
+      "url": "https://www.procyclingstats.com/rider/franziska-koch/2026",
       "reason": "no_results_parsed"
     },
     {
       "rider": "Evita Muzic",
       "url": "https://www.procyclingstats.com/rider/evita-muzic/2026",
+      "reason": "no_results_parsed"
+    },
+    {
+      "rider": "Marie Le Net",
+      "url": "https://www.procyclingstats.com/rider/marie-le-net/2026",
       "reason": "no_results_parsed"
     },
     {
@@ -336,13 +366,13 @@
       "reason": "no_results_parsed"
     },
     {
-      "rider": "Ally Wollaston",
-      "url": "https://www.procyclingstats.com/rider/ally-wollaston/2026",
+      "rider": "Lisa van Belle",
+      "url": "https://www.procyclingstats.com/rider/lisa-van-belle/2026",
       "reason": "no_results_parsed"
     },
     {
-      "rider": "Lisa van Belle",
-      "url": "https://www.procyclingstats.com/rider/lisa-van-belle/2026",
+      "rider": "Mischa Bredewold",
+      "url": "https://www.procyclingstats.com/rider/mischa-bredewold/2026",
       "reason": "no_results_parsed"
     },
     {
@@ -353,6 +383,11 @@
     {
       "rider": "Valentina Cavallar",
       "url": "https://www.procyclingstats.com/rider/valentina-cavallar/2026",
+      "reason": "no_results_parsed"
+    },
+    {
+      "rider": "Elena Cecchini",
+      "url": "https://www.procyclingstats.com/rider/elena-cecchini/2026",
       "reason": "no_results_parsed"
     },
     {
@@ -396,13 +431,33 @@
       "reason": "no_results_parsed"
     },
     {
+      "rider": "Marie Schreiber",
+      "url": "https://www.procyclingstats.com/rider/marie-schreiber/2026",
+      "reason": "no_results_parsed"
+    },
+    {
       "rider": "Blanka Kata Vas",
       "url": "https://www.procyclingstats.com/rider/blanka-kata-vas/2026",
       "reason": "no_results_parsed"
     },
     {
+      "rider": "Nienke Vinke",
+      "url": "https://www.procyclingstats.com/rider/nienke-vinke/2026",
+      "reason": "no_results_parsed"
+    },
+    {
       "rider": "Lorena Wiebes",
       "url": "https://www.procyclingstats.com/rider/lorena-wiebes/2026",
+      "reason": "no_results_parsed"
+    },
+    {
+      "rider": "Henrique Bravo",
+      "url": "https://www.procyclingstats.com/rider/henrique-bravo/2026",
+      "reason": "no_results_parsed"
+    },
+    {
+      "rider": "Jose Said Cisneros",
+      "url": "https://www.procyclingstats.com/rider/jose-said-cisneros/2026",
       "reason": "no_results_parsed"
     },
     {
@@ -421,11 +476,6 @@
       "reason": "no_results_parsed"
     },
     {
-      "rider": "Joeri Schaper",
-      "url": "https://www.procyclingstats.com/rider/joeri-schaper/2026",
-      "reason": "no_results_parsed"
-    },
-    {
       "rider": "Gauthier Servranckx",
       "url": "https://www.procyclingstats.com/rider/gauthier-servranckx/2026",
       "reason": "no_results_parsed"
@@ -441,28 +491,18 @@
       "reason": "no_results_parsed"
     },
     {
-      "rider": "Matijs Van Strijthem",
-      "url": "https://www.procyclingstats.com/rider/matijs-van-strijthem/2026",
-      "reason": "no_results_parsed"
-    },
-    {
-      "rider": "Stan Van Tricht",
-      "url": "https://www.procyclingstats.com/rider/stan-van-tricht/2026",
-      "reason": "no_results_parsed"
-    },
-    {
       "rider": "Marc Zafra",
       "url": "https://www.procyclingstats.com/rider/marc-zafra/2026",
       "reason": "no_results_parsed"
     },
     {
-      "rider": "Marwan Bahroumi",
-      "url": "https://www.procyclingstats.com/rider/marwan-bahroumi/2026",
+      "rider": "Victor De Smet",
+      "url": "https://www.procyclingstats.com/rider/victor-de-smet/2026",
       "reason": "no_results_parsed"
     },
     {
-      "rider": "Victor De Smet",
-      "url": "https://www.procyclingstats.com/rider/victor-de-smet/2026",
+      "rider": "Simon Defrance",
+      "url": "https://www.procyclingstats.com/rider/simon-defrance/2026",
       "reason": "no_results_parsed"
     },
     {
@@ -481,28 +521,8 @@
       "reason": "no_results_parsed"
     },
     {
-      "rider": "Rene Messely",
-      "url": "https://www.procyclingstats.com/rider/rene-messely/2026",
-      "reason": "no_results_parsed"
-    },
-    {
-      "rider": "Valentin Petillon",
-      "url": "https://www.procyclingstats.com/rider/valentin-petillon/2026",
-      "reason": "no_results_parsed"
-    },
-    {
-      "rider": "Gal Stare",
-      "url": "https://www.procyclingstats.com/rider/gal-stare/2026",
-      "reason": "no_results_parsed"
-    },
-    {
-      "rider": "Mathis Vandenheede",
-      "url": "https://www.procyclingstats.com/rider/mathis-vandenheede/2026",
-      "reason": "no_results_parsed"
-    },
-    {
-      "rider": "Enzo Hincapie",
-      "url": "https://www.procyclingstats.com/rider/enzo-hincapie/2026",
+      "rider": "Karl Herzog",
+      "url": "https://www.procyclingstats.com/rider/karl-herzog/2026",
       "reason": "no_results_parsed"
     },
     {
@@ -511,18 +531,8 @@
       "reason": "no_results_parsed"
     },
     {
-      "rider": "Sander Willems",
-      "url": "https://www.procyclingstats.com/rider/sander-willems/2026",
-      "reason": "no_results_parsed"
-    },
-    {
       "rider": "Gustave Blanc",
       "url": "https://www.procyclingstats.com/rider/gustave-blanc/2026",
-      "reason": "no_results_parsed"
-    },
-    {
-      "rider": "Max Bock",
-      "url": "https://www.procyclingstats.com/rider/max-bock/2026",
       "reason": "no_results_parsed"
     },
     {
@@ -536,8 +546,8 @@
       "reason": "no_results_parsed"
     },
     {
-      "rider": "Paul Fietzke",
-      "url": "https://www.procyclingstats.com/rider/paul-fietzke/2026",
+      "rider": "Lorenzo Finn",
+      "url": "https://www.procyclingstats.com/rider/lorenzo-finn/2026",
       "reason": "no_results_parsed"
     },
     {
@@ -546,28 +556,8 @@
       "reason": "no_results_parsed"
     },
     {
-      "rider": "Alessio Magagnotti",
-      "url": "https://www.procyclingstats.com/rider/alessio-magagnotti/2026",
-      "reason": "no_results_parsed"
-    },
-    {
-      "rider": "Michiel Mouris",
-      "url": "https://www.procyclingstats.com/rider/michiel-mouris/2026",
-      "reason": "no_results_parsed"
-    },
-    {
       "rider": "Romet Pajur",
       "url": "https://www.procyclingstats.com/rider/romet-pajur/2026",
-      "reason": "no_results_parsed"
-    },
-    {
-      "rider": "Sebastian Putz",
-      "url": "https://www.procyclingstats.com/rider/sebastian-putz/2026",
-      "reason": "no_results_parsed"
-    },
-    {
-      "rider": "Gijs Schoonvelde",
-      "url": "https://www.procyclingstats.com/rider/gijs-schoonvelde/2026",
       "reason": "no_results_parsed"
     },
     {
@@ -598,6 +588,11 @@
     {
       "rider": "Keegan Swenson",
       "url": "https://www.procyclingstats.com/rider/keegan-swenson/2026",
+      "reason": "no_results_parsed"
+    },
+    {
+      "rider": "Mads Würtz Schmidt",
+      "url": "https://www.procyclingstats.com/rider/mads-wurtz-schmidt/2026",
       "reason": "no_results_parsed"
     },
     {
