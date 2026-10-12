@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-10-05",
+  "lastUpdated": "2026-10-12",
   "generatedBy": "scripts/update_results.py",
   "strategy": "Auto per-athlete PCS rider-page scraping via cloudscraper",
-  "latestInputDate": "2026-09-27",
+  "latestInputDate": "2026-67-41",
   "resultCount": 1158,
-  "addedThisRun": 86,
+  "addedThisRun": 0,
   "results": [
     {
       "date": "2026-01-29",
